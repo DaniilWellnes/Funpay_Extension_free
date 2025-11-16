@@ -1,0 +1,419 @@
+body {
+    background-image: url('https://i.ibb.co/RTR7SX0j/image-2025-06-14-19-06-03.png') !important;
+    background-attachment: fixed !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+}
+
+#header,
+.form-control.dropdown-toggle,
+.navbar.navbar-default
+{
+    background: none !important;
+}
+
+.tc-finance,
+.tc-header.text-bold > div,
+.navbar.navbar-default,
+#footer,
+.chat-promo,
+.chat-header.bg-light-color.bg-light-style
+{
+    border-color: #2e0f5f48;
+}
+
+.dropdown-toggle {
+    color: #c8c8c8;
+}
+
+.dropdown-toggle span {
+    color: #c8c8c8;
+}
+
+.form-control {
+    background-color: #08002076 !important;
+}
+
+li a {
+    color: #908993 !important;
+}
+
+.input-group-btn,
+.chat-header,
+.chat-form,
+.chat-message-container,
+.contact-item,
+.dropdown li,
+.dropdown-menu li
+{
+    border: none !important;
+}
+
+.contact-item:hover {
+    background-color: #12033b !important;
+}
+
+.contact-item.active:hover {
+    background-color: #491271 !important;
+}
+
+.contact-item.active {
+    background-color: #491271;
+}
+
+.chat-full > div {
+    background-color: #080020bf !important;
+    border: none !important;
+}
+
+.dropdown-menu {
+    background-color: #04001cd5 !important;
+    border: none !important;
+}
+
+.chat-form-input textarea {
+    background: none !important;
+    border-bottom: 1px solid #c8c8c8 !important;
+    color: #ffffff;
+    border-radius: 0 !important;
+}
+
+.btn-gray, 
+.btn-default
+{
+    background-color: #441372 !important;
+    color: #ffffff !important;
+    border: none;
+}
+
+.btn-primary,
+.counter-item
+{
+    background-color: #2e0a5d !important;
+    border: none !important;
+    color: #c8c8c8;
+}
+
+.counter-item.active {
+    background-color: #010016 !important;
+}
+
+.counter-item:hover {
+    color: #ffffff;
+}
+
+.cd-satellite {
+    background-color: #370f5d !important;
+}
+
+.social-statistic {
+    background-color: #311372 !important;
+}
+
+.social-statistic-wot {
+    background-color: black !important;
+}
+
+.btn-round {
+    background: none !important ;
+}
+
+.chat-full-header {
+    color: #dfd3e4 !important;
+    border: none;
+}
+
+.custom-scroll,
+.chat-message-list
+{
+    overflow: auto !important;
+    scrollbar-color: #010016 transparent;
+}
+
+.custom-scroll::-webkit-scrollbar-button {
+    display: none;
+    height: 0;
+    width: 0;
+}
+
+.chat-msg-author-link,
+.media-user-name,
+.media-user-name a,
+.text-nowrap,
+.mr4,
+.payment-method,
+.cy-unit,
+.content-with-cd h1,
+.monospace,
+.chat-promo,
+.col-lg-4.col-md-3,
+.megaswitch-title,
+.setting-item h3,
+.content-with-cd
+{
+    color: #ffffff !important;
+}
+
+.chat-msg-text {
+    color: #c8c8c8 !important;
+}
+
+.param-item h5 {
+    color: #fff;
+}
+
+.param-item div,
+.param-item .text-bold {
+    color: #e7e7ea !important;
+}
+
+.alert.alert-with-icon.alert-info {
+    background-color: #2c0056ab !important;
+    border: none !important;
+}
+
+.btn_bind {
+    background-color: #180649 !important;
+}
+
+.logo-color {
+    filter: invert(100%) hue-rotate(180deg) contrast(90%) !important;
+}
+
+.label-primary {
+    background-color: #261372 !important;
+}
+
+.label-success {
+    background-color: #4f0084 !important;
+}
+
+.promo-games.bg-light-color.promo-games-fav {
+    background-color: #08002054 !important;
+}
+
+.game-title a {
+    color: #ffffff;
+}
+
+.title-mini {
+    color: #c8c8c8;
+}
+
+.chat {
+    background-color: #08002054 !important;
+}
+
+.chat-float .chat-header {
+    background: none !important;
+}
+
+.dropdown-menu a:hover {
+    background-color: #010016ac !important;
+}
+
+.dropdown-menu li a:focus {
+    background-color: #010016ac !important;
+}
+
+.form-control {
+    background-color: #08002076;
+    color: #c8c8c8;
+    border: none;
+}
+
+.form-control:focus {
+    border: none;
+}
+
+.tc-header.text-bold,
+.tc-item > div
+{
+    background-color: #080020bf !important;
+    border: none !important;
+}
+
+.tc-item.info,
+.tc-item.warning {
+    background-color: #271073bf !important;
+}
+
+.alert-with-icon, 
+.tc-title,
+li.active a,
+.user-link-name,
+.tc-header.text-bold > div,
+.page-header,
+.tc-order,
+.tc-date-time,
+.order-desc,
+.tc-price,
+.order-secrets-box h5
+{
+    color: #ffffff !important;
+}
+
+.dropdown-menu li.active a {
+    background-color: #290757a8 !important;
+}
+
+.tc-item:hover {
+    background-color: #2e0a5dd5 !important;
+}
+
+.chat-message-list-date span,
+.chat-message-list-date::before
+{
+    background-color: #2e225c !important;
+    color: #ffffff;
+}
+
+.order-secrets-box,
+.form-control-box
+{
+    background-color: #08002076;
+    border: none !important;
+    color: #fff !important;
+}
+
+.order-secrets-box span {
+    color: #c8c8c8 !important;
+}
+
+.wrapper-footer {
+    background: none !important;
+}
+
+.review-item-date {
+    color: #fff;
+}
+
+.review-item-text {
+    color: #c8c8c8;
+}
+
+.modal-content {
+    background-color: #12002df1;
+}
+
+.h1.modal-title {
+    color: #fff;
+}
+
+td {
+    color: #c8c8c8 !important;
+}
+
+.bg-light-color {
+    background-color: #0100167d;
+}
+
+.content-with-cd-wide.showcase,
+.offer,
+.chat-promo
+{
+    background-color: #010016a6;
+}
+
+.tc-header > div {
+    color: #fff;
+}
+
+.tc-desc-text,
+.tc-server.hidden-xs,
+.big
+{
+    color: #c8c8c8;
+}
+
+.review-item-answer {
+    background-color: #10003fab;
+    color: #fff;
+}
+
+.content-with-cd-wide.tbl-footer {
+    background-color: #010016;
+}
+
+.lead {
+    color:  #c8c8c8 !important;
+}
+
+.megaswitch-desc,
+.setting-item p
+{
+    color: #c8c8c8;
+}
+
+.form-control option {
+    background-color: #010016;
+}
+
+.mb10.text-bold {
+    color: #c8c8c8;
+}
+
+.tc-amount,
+.hidden-xxs,
+.form-group,
+.page-content-full,
+.footer-block span,
+.swap-btn
+{
+    color: #c8c8c8 !important;
+}
+
+.chat-btn-image {
+    background: none !important;
+}
+
+.accounts {
+    background-color: #14002ece !important;
+    border: none !important;
+}
+
+.loadAccount {
+    color: #c8c8c8;
+}
+
+.stats-part {
+    color: #c8c8c8;
+}
+
+.text-lg {
+    color: #c8c8c8;
+}
+
+.sale-panel {
+    background-color: #1f004acd;
+}
+
+.settings-block {
+    background-color: #1c002ed6;
+}
+
+.background-info {
+    background-color: #28005dc8;
+}
+
+.rating-progress {
+    background-color: #000000;
+}
+
+.rating-progress div {
+    background-color: #27004f !important;
+}
+
+.actions {
+    background-color: #010016af;
+    border-top: #000000;
+}
+
+.log {
+    color: #c8c8c8;
+}
+
+.action-lot {
+    background-color: #20033b;
+}

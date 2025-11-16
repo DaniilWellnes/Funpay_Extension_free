@@ -1,0 +1,3859 @@
+/* User-Agent Style */
+html {
+    background-color: #181a1b !important;
+}
+html {
+    color-scheme: dark !important;
+}
+html, body, input, textarea, select, button {
+    background-color: #181a1b !important;
+}
+html, body, input, textarea, select, button {
+    border-color: #736b5e;
+    color: #e8e6e3;
+}
+a {
+    color: #3391ff;
+}
+table {
+    border-color: #545b5e;
+}
+::placeholder {
+    color: #b2aba1;
+}
+input:-webkit-autofill,
+textarea:-webkit-autofill,
+select:-webkit-autofill {
+    background-color: #404400 !important;
+    color: #e8e6e3 !important;
+}
+::-webkit-scrollbar {
+    background-color: #202324;
+    color: #aba499;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #454a4d;
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: #575e62;
+}
+::-webkit-scrollbar-thumb:active {
+    background-color: #484e51;
+}
+::-webkit-scrollbar-corner {
+    background-color: #181a1b;
+}
+::selection {
+    background-color: #004daa !important;
+    color: #e8e6e3 !important;
+}
+::-moz-selection {
+    background-color: #004daa !important;
+    color: #e8e6e3 !important;
+}
+
+/* Invert Style */
+.jfk-bubble.gtx-bubble, .captcheck_answer_label > input + img, span#closed_text > img[src^="https://www.gstatic.com/images/branding/googlelogo"], span[data-href^="https://www.hcaptcha.com/"] > #icon, #bit-notification-bar-iframe, ::-webkit-calendar-picker-indicator {
+    filter: invert(100%) hue-rotate(180deg) contrast(90%) !important;
+}
+
+/* Variables Style */
+:root {
+   --darkreader-neutral-background: #131516;
+   --darkreader-neutral-text: #d8d4cf;
+   --darkreader-selection-background: #004daa;
+   --darkreader-selection-text: #e8e6e3;
+}
+
+/* Modified CSS */
+.fa-border {
+    border-color: rgb(53, 57, 59);
+}
+.fa-inverse {
+    color: rgb(232, 230, 227);
+}
+.sr-only {
+    border-color: initial;
+}
+a {
+    background-color: transparent;
+}
+a:active,
+a:hover {
+    outline-color: initial;
+}
+abbr[title] {
+    border-bottom-color: initial;
+}
+mark {
+    background-image: initial;
+    background-color: rgb(153, 153, 0);
+    color: rgb(232, 230, 227);
+}
+img {
+    border-color: initial;
+}
+
+.extension-input {
+    color: #828282;;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+    color: inherit;
+}
+fieldset {
+    border-color: rgb(66, 71, 74);
+}
+legend {
+    border-color: initial;
+}
+html {
+    -webkit-tap-highlight-color: rgba(232, 230, 227, 0);
+}
+body {
+    color: rgb(211, 207, 201);
+    background-color: rgb(24, 26, 27);
+}
+a {
+    color: rgb(83, 152, 212);
+    text-decoration-color: initial;
+}
+a:hover,
+a:focus {
+    color: rgb(119, 174, 221);
+    text-decoration-color: initial;
+}
+a:focus {
+    outline-color: rgb(186, 123, 0);
+}
+.img-thumbnail {
+    background-color: rgb(24, 26, 27);
+    border-color: rgb(58, 62, 65);
+}
+hr {
+    border-right-color: initial;
+    border-bottom-color: initial;
+    border-left-color: initial;
+    border-top-color: rgb(56, 60, 63);
+}
+.sr-only {
+    border-color: initial;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+    color: inherit;
+}
+h1 small,
+h1 .small,
+h2 small,
+h2 .small,
+h3 small,
+h3 .small,
+h4 small,
+h4 .small,
+h5 small,
+h5 .small,
+h6 small,
+h6 .small,
+.h1 small,
+.h1 .small,
+.h2 small,
+.h2 .small,
+.h3 small,
+.h3 .small,
+.h4 small,
+.h4 .small,
+.h5 small,
+.h5 .small,
+.h6 small,
+.h6 .small {
+    color: rgb(157, 148, 136);
+}
+mark,
+.mark {
+    background-color: rgb(51, 47, 2);
+}
+.text-muted {
+    color: rgb(176, 169, 159);
+}
+.text-primary {
+    color: rgb(83, 152, 212);
+}
+a.text-primary:hover,
+a.text-primary:focus {
+    color: rgb(107, 167, 218);
+}
+.text-success {
+    color: rgb(149, 226, 63);
+}
+a.text-success:hover,
+a.text-success:focus {
+    color: rgb(166, 231, 94);
+}
+.text-info {
+    color: rgb(129, 175, 214);
+}
+a.text-info:hover,
+a.text-info:focus {
+    color: rgb(152, 189, 221);
+}
+.text-warning {
+    color: rgb(246, 173, 52);
+}
+a.text-warning:hover,
+a.text-warning:focus {
+    color: rgb(246, 173, 53);
+}
+.text-danger {
+    color: rgb(246, 52, 52);
+}
+a.text-danger:hover,
+a.text-danger:focus {
+    color: rgb(246, 53, 53);
+}
+.bg-primary {
+    color: rgb(232, 230, 227);
+}
+.bg-primary {
+    background-color: rgb(38, 92, 154);
+}
+a.bg-primary:hover,
+a.bg-primary:focus {
+    background-color: rgb(36, 86, 143);
+}
+.bg-success {
+    background-color: rgb(45, 62, 13);
+}
+a.bg-success:hover,
+a.bg-success:focus {
+    background-color: rgb(64, 87, 19);
+}
+.bg-info {
+    background-color: rgb(31, 33, 35);
+}
+a.bg-info:hover,
+a.bg-info:focus {
+    background-color: rgb(45, 49, 51);
+}
+.bg-warning {
+    background-color: rgb(51, 47, 2);
+}
+a.bg-warning:hover,
+a.bg-warning:focus {
+    background-color: rgb(72, 68, 3);
+}
+.bg-danger {
+    background-color: rgb(61, 12, 18);
+}
+a.bg-danger:hover,
+a.bg-danger:focus {
+    background-color: rgb(86, 17, 25);
+}
+.page-header {
+    border-bottom-color: rgb(56, 60, 63);
+}
+.list-unstyled {
+    list-style-image: initial;
+}
+.list-inline {
+    list-style-image: initial;
+}
+abbr[title],
+abbr[data-original-title] {
+    border-bottom-color: rgb(101, 94, 83);
+}
+blockquote {
+    border-left-color: rgb(53, 57, 59);
+}
+blockquote footer,
+blockquote small,
+blockquote .small {
+    color: rgb(157, 148, 136);
+}
+.blockquote-reverse,
+blockquote.pull-right {
+    border-right-color: rgb(53, 57, 59);
+    border-left-color: initial;
+}
+code {
+    color: rgb(221, 73, 110);
+    background-color: rgb(43, 20, 26);
+}
+kbd {
+    color: rgb(232, 230, 227);
+    background-color: rgb(38, 42, 43);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px -1px 0px inset;
+}
+kbd kbd {
+    box-shadow: none;
+}
+pre {
+    color: rgb(200, 195, 188);
+    background-color: rgb(30, 32, 33);
+    border-color: rgb(62, 68, 70);
+}
+pre code {
+    color: inherit;
+    background-color: transparent;
+}
+table {
+    background-color: rgba(0, 0, 0, 0);
+}
+caption {
+    color: rgb(176, 169, 159);
+}
+.table > thead > tr > th,
+.table > thead > tr > td,
+.table > tbody > tr > th,
+.table > tbody > tr > td,
+.table > tfoot > tr > th,
+.table > tfoot > tr > td {
+    border-top-color: rgb(54, 58, 61);
+}
+.table > thead > tr > th {
+    border-bottom-color: rgb(54, 58, 61);
+}
+.table > caption + thead > tr:first-child > th,
+.table > caption + thead > tr:first-child > td,
+.table > colgroup + thead > tr:first-child > th,
+.table > colgroup + thead > tr:first-child > td,
+.table > thead:first-child > tr:first-child > th,
+.table > thead:first-child > tr:first-child > td {
+    border-top-color: initial;
+}
+.table > tbody + tbody {
+    border-top-color: rgb(54, 58, 61);
+}
+.table .table {
+    background-color: rgb(24, 26, 27);
+}
+.table-bordered {
+    border-color: rgb(54, 58, 61);
+}
+.table-bordered > thead > tr > th,
+.table-bordered > thead > tr > td,
+.table-bordered > tbody > tr > th,
+.table-bordered > tbody > tr > td,
+.table-bordered > tfoot > tr > th,
+.table-bordered > tfoot > tr > td {
+    border-color: rgb(54, 58, 61);
+}
+.table-striped > tbody > tr:nth-of-type(2n+1) {
+    background-color: rgb(27, 30, 31);
+}
+.table-hover > tbody > tr:hover {
+    background-color: rgb(27, 30, 31);
+}
+.table > thead > tr > td.active,
+.table > thead > tr > th.active,
+.table > thead > tr.active > td,
+.table > thead > tr.active > th,
+.table > tbody > tr > td.active,
+.table > tbody > tr > th.active,
+.table > tbody > tr.active > td,
+.table > tbody > tr.active > th,
+.table > tfoot > tr > td.active,
+.table > tfoot > tr > th.active,
+.table > tfoot > tr.active > td,
+.table > tfoot > tr.active > th {
+    background-color: rgb(27, 30, 31);
+}
+.table-hover > tbody > tr > td.active:hover,
+.table-hover > tbody > tr > th.active:hover,
+.table-hover > tbody > tr.active:hover > td,
+.table-hover > tbody > tr:hover > .active,
+.table-hover > tbody > tr.active:hover > th {
+    background-color: rgb(35, 38, 39);
+}
+.tc.table-hover .tc-item.active {
+    background-color: rgb(27, 30, 31);
+}
+.tc.table-hover .tc-item.active:hover {
+    background-color: rgb(35, 38, 39);
+}
+.table > thead > tr > td.success,
+.table > thead > tr > th.success,
+.table > thead > tr.success > td,
+.table > thead > tr.success > th,
+.table > tbody > tr > td.success,
+.table > tbody > tr > th.success,
+.table > tbody > tr.success > td,
+.table > tbody > tr.success > th,
+.table > tfoot > tr > td.success,
+.table > tfoot > tr > th.success,
+.table > tfoot > tr.success > td,
+.table > tfoot > tr.success > th {
+    background-color: rgb(45, 62, 13);
+}
+.table-hover > tbody > tr > td.success:hover,
+.table-hover > tbody > tr > th.success:hover,
+.table-hover > tbody > tr.success:hover > td,
+.table-hover > tbody > tr:hover > .success,
+.table-hover > tbody > tr.success:hover > th {
+    background-color: rgb(54, 75, 15);
+}
+.tc.table-hover .tc-item.success {
+    background-color: rgb(45, 62, 13);
+}
+.tc.table-hover .tc-item.success:hover {
+    background-color: rgb(54, 75, 15);
+}
+.table > thead > tr > td.info,
+.table > thead > tr > th.info,
+.table > thead > tr.info > td,
+.table > thead > tr.info > th,
+.table > tbody > tr > td.info,
+.table > tbody > tr > th.info,
+.table > tbody > tr.info > td,
+.table > tbody > tr.info > th,
+.table > tfoot > tr > td.info,
+.table > tfoot > tr > th.info,
+.table > tfoot > tr.info > td,
+.table > tfoot > tr.info > th {
+    background-color: rgb(31, 33, 35);
+}
+.table-hover > tbody > tr > td.info:hover,
+.table-hover > tbody > tr > th.info:hover,
+.table-hover > tbody > tr.info:hover > td,
+.table-hover > tbody > tr:hover > .info,
+.table-hover > tbody > tr.info:hover > th {
+    background-color: rgb(38, 41, 43);
+}
+.tc.table-hover .tc-item.info {
+    background-color: rgb(31, 33, 35);
+}
+.tc.table-hover .tc-item.info:hover {
+    background-color: rgb(38, 41, 43);
+}
+.table > thead > tr > td.warning,
+.table > thead > tr > th.warning,
+.table > thead > tr.warning > td,
+.table > thead > tr.warning > th,
+.table > tbody > tr > td.warning,
+.table > tbody > tr > th.warning,
+.table > tbody > tr.warning > td,
+.table > tbody > tr.warning > th,
+.table > tfoot > tr > td.warning,
+.table > tfoot > tr > th.warning,
+.table > tfoot > tr.warning > td,
+.table > tfoot > tr.warning > th {
+    background-color: rgb(51, 47, 2);
+}
+.table-hover > tbody > tr > td.warning:hover,
+.table-hover > tbody > tr > th.warning:hover,
+.table-hover > tbody > tr.warning:hover > td,
+.table-hover > tbody > tr:hover > .warning,
+.table-hover > tbody > tr.warning:hover > th {
+    background-color: rgb(62, 58, 2);
+}
+.tc.table-hover .tc-item.warning {
+    background-color: rgb(51, 47, 2);
+}
+.tc.table-hover .tc-item.warning:hover {
+    background-color: rgb(62, 58, 2);
+}
+.table > thead > tr > td.danger,
+.table > thead > tr > th.danger,
+.table > thead > tr.danger > td,
+.table > thead > tr.danger > th,
+.table > tbody > tr > td.danger,
+.table > tbody > tr > th.danger,
+.table > tbody > tr.danger > td,
+.table > tbody > tr.danger > th,
+.table > tfoot > tr > td.danger,
+.table > tfoot > tr > th.danger,
+.table > tfoot > tr.danger > td,
+.table > tfoot > tr.danger > th {
+    background-color: rgb(61, 12, 18);
+}
+.table-hover > tbody > tr > td.danger:hover,
+.table-hover > tbody > tr > th.danger:hover,
+.table-hover > tbody > tr.danger:hover > td,
+.table-hover > tbody > tr:hover > .danger,
+.table-hover > tbody > tr.danger:hover > th {
+    background-color: rgb(73, 14, 22);
+}
+.tc.table-hover .tc-item.danger {
+    background-color: rgb(61, 12, 18);
+}
+.tc.table-hover .tc-item.danger:hover {
+    background-color: rgb(73, 14, 22);
+}
+@media screen and (max-width: 767px) {
+    .table-responsive {
+        border-color: rgb(54, 58, 61);
+    }
+    .table-responsive > .table-bordered {
+        border-color: initial;
+    }
+    .table-responsive > .table-bordered > thead > tr > th:first-child,
+    .table-responsive > .table-bordered > thead > tr > td:first-child,
+    .table-responsive > .table-bordered > tbody > tr > th:first-child,
+    .table-responsive > .table-bordered > tbody > tr > td:first-child,
+    .table-responsive > .table-bordered > tfoot > tr > th:first-child,
+    .table-responsive > .table-bordered > tfoot > tr > td:first-child {
+        border-left-color: initial;
+    }
+    .table-responsive > .table-bordered > thead > tr > th:last-child,
+    .table-responsive > .table-bordered > thead > tr > td:last-child,
+    .table-responsive > .table-bordered > tbody > tr > th:last-child,
+    .table-responsive > .table-bordered > tbody > tr > td:last-child,
+    .table-responsive > .table-bordered > tfoot > tr > th:last-child,
+    .table-responsive > .table-bordered > tfoot > tr > td:last-child {
+        border-right-color: initial;
+    }
+    .table-responsive > .table-bordered > tbody > tr:last-child > th,
+    .table-responsive > .table-bordered > tbody > tr:last-child > td,
+    .table-responsive > .table-bordered > tfoot > tr:last-child > th,
+    .table-responsive > .table-bordered > tfoot > tr:last-child > td {
+        border-bottom-color: initial;
+    }
+}
+fieldset {
+    border-color: initial;
+}
+legend {
+    color: rgb(200, 195, 188);
+    border-top-color: initial;
+    border-right-color: initial;
+    border-left-color: initial;
+    border-bottom-color: rgb(55, 60, 62); 
+}
+input[type="file"]:focus, input[type="radio"]:focus, input[type="checkbox"]:focus {
+    outline-color: rgb(186, 123, 0);
+}
+output {
+    color: rgb(211, 207, 201);
+}
+.form-control {
+    color: rgb(211, 207, 201);
+    background-color: rgb(24, 26, 27);
+    background-image: none;
+    border-color: rgb(56, 60, 63);
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px inset;
+}
+.form-control:focus {
+    border-color: rgb(35, 82, 138);
+    outline-color: initial;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px inset,
+    rgba(38, 92, 154, 0.6) 0px 0px 8px;
+}
+.form-control::-webkit-input-placeholder {
+    color: rgb(163, 155, 142);
+}
+.form-control[disabled],
+.form-control[readonly],
+fieldset[disabled] .form-control {
+    background-color: rgb(30, 32, 33);
+}
+.has-success .help-block,
+.has-success .control-label,
+.has-success .radio,
+.has-success .checkbox,
+.has-success .radio-inline,
+.has-success .checkbox-inline,
+.has-success.radio label,
+.has-success.checkbox label,
+.has-success.radio-inline label,
+.has-success.checkbox-inline label {
+    color: rgb(149, 226, 63);
+}
+.has-success .form-control {
+    border-color: rgb(94, 158, 24);
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px inset;
+}
+.has-success .form-control:focus {
+    border-color: rgb(103, 172, 26);
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px inset,
+    rgb(91, 130, 20) 0px 0px 6px;
+}
+.has-success .input-group-addon {
+    color: rgb(149, 226, 63);
+    border-color: rgb(94, 158, 24);
+    background-color: rgb(45, 62, 13);
+}
+.has-success .form-control-feedback {
+    color: rgb(149, 226, 63);
+}
+.has-warning .help-block,
+.has-warning .control-label,
+.has-warning .radio,
+.has-warning .checkbox,
+.has-warning .radio-inline,
+.has-warning .checkbox-inline,
+.has-warning.radio label,
+.has-warning.checkbox label,
+.has-warning.radio-inline label,
+.has-warning.checkbox-inline label {
+    color: rgb(246, 173, 52);
+}
+.has-warning .form-control {
+    border-color: rgb(164, 105, 7);
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px inset;
+}
+.has-warning .form-control:focus {
+    border-color: rgb(178, 114, 8);
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px inset,
+    rgb(122, 78, 6) 0px 0px 6px;
+}
+.has-warning .input-group-addon {
+    color: rgb(246, 173, 52);
+    border-color: rgb(164, 105, 7);
+    background-color: rgb(51, 47, 2);
+}
+.has-warning .form-control-feedback {
+    color: rgb(246, 173, 52);
+}
+.has-error .help-block,
+.has-error .control-label,
+.has-error .radio,
+.has-error .checkbox,
+.has-error .radio-inline,
+.has-error .checkbox-inline,
+.has-error.radio label,
+.has-error.checkbox label,
+.has-error.radio-inline label,
+.has-error.checkbox-inline label {
+    color: rgb(246, 52, 52);
+}
+.has-error .form-control {
+    border-color: rgb(164, 7, 7);
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px inset;
+}
+.has-error .form-control:focus {
+    border-color: rgb(178, 8, 8);
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px inset,
+    rgb(122, 6, 6) 0px 0px 6px;
+}
+.has-error .input-group-addon {
+    color: rgb(246, 52, 52);
+    border-color: rgb(164, 7, 7);
+    background-color: rgb(61, 12, 18);
+}
+.has-error .form-control-feedback {
+    color: rgb(246, 52, 52);
+}
+.help-block {
+    color: rgb(170, 163, 152);
+}
+.btn {
+    background-image: none;
+    border-color: transparent;
+}
+.btn:focus,
+.btn.focus,
+.btn:active:focus,
+.btn:active.focus,
+.btn.active:focus,
+.btn.active.focus {
+    outline-color: rgb(186, 123, 0);
+}
+.btn:hover,
+.btn:focus,
+.btn.focus {
+    color: rgb(83, 152, 212);
+    text-decoration-color: initial;
+}
+.btn:active,
+.btn.active {
+    outline-color: initial;
+    background-image: none;
+    box-shadow: rgba(0, 0, 0, 0.13) 0px 3px 5px inset;
+}
+.btn.disabled,
+.btn[disabled],
+fieldset[disabled] .btn {
+    box-shadow: none;
+}
+.btn-default {
+    color: rgb(83, 152, 212);
+    background-color: rgb(24, 26, 27);
+    border-color: rgb(56, 60, 63);
+}
+.btn-default:focus,
+.btn-default.focus {
+    color: rgb(83, 152, 212);
+    background-color: rgb(38, 42, 43);
+    border-color: rgb(62, 68, 70);
+}
+.btn-default:hover {
+    color: rgb(83, 152, 212);
+    background-color: rgb(38, 42, 43);
+    border-color: rgb(57, 61, 64);
+}
+.btn-default:active,
+.btn-default.active,
+.open > .btn-default.dropdown-toggle {
+    color: rgb(83, 152, 212);
+    background-color: rgb(38, 42, 43);
+    border-color: rgb(57, 61, 64);
+}
+.btn-default:active:hover,
+.btn-default:active:focus,
+.btn-default:active.focus,
+.btn-default.active:hover,
+.btn-default.active:focus,
+.btn-default.active.focus,
+.open > .btn-default.dropdown-toggle:hover,
+.open > .btn-default.dropdown-toggle:focus,
+.open > .btn-default.dropdown-toggle.focus {
+    color: rgb(83, 152, 212);
+    background-color: rgb(48, 52, 54);
+    border-color: rgb(62, 68, 70);
+}
+.btn-default:active,
+.btn-default.active,
+.open > .btn-default.dropdown-toggle {
+    background-image: none;
+}
+.btn-default.disabled:hover,
+.btn-default.disabled:focus,
+.btn-default.disabled.focus,
+.btn-default[disabled]:hover,
+.btn-default[disabled]:focus,
+.btn-default[disabled].focus,
+fieldset[disabled] .btn-default:hover,
+fieldset[disabled] .btn-default:focus,
+fieldset[disabled] .btn-default.focus {
+    background-color: rgb(24, 26, 27);
+    border-color: rgb(56, 60, 63);
+}
+.btn-default .badge {
+    color: rgb(232, 230, 227);
+    background-color: rgb(38, 92, 154);
+}
+.btn-primary {
+    color: rgb(232, 230, 227);
+    background-color: rgb(38, 92, 154);
+    border-color: rgb(35, 82, 138);
+}
+.btn-primary:focus,
+.btn-primary.focus {
+    color: rgb(232, 230, 227);
+    background-color: rgb(36, 86, 143);
+    border-color: rgb(41, 96, 162);
+}
+.btn-primary:hover {
+    color: rgb(232, 230, 227);
+    background-color: rgb(36, 86, 143);
+    border-color: rgb(38, 91, 152);
+}
+.btn-primary:active,
+.btn-primary.active,
+.open > .btn-primary.dropdown-toggle {
+    color: rgb(232, 230, 227);
+    background-color: rgb(36, 86, 143);
+    border-color: rgb(38, 91, 152);
+}
+.btn-primary:active:hover,
+.btn-primary:active:focus,
+.btn-primary:active.focus,
+.btn-primary.active:hover,
+.btn-primary.active:focus,
+.btn-primary.active.focus,
+.open > .btn-primary.dropdown-toggle:hover,
+.open > .btn-primary.dropdown-toggle:focus,
+.open > .btn-primary.dropdown-toggle.focus {
+    color: rgb(232, 230, 227);
+    background-color: rgb(30, 72, 121);
+    border-color: rgb(41, 96, 162);
+}
+.btn-primary:active,
+.btn-primary.active,
+.open > .btn-primary.dropdown-toggle {
+    background-image: none;
+}
+.btn-primary.disabled:hover,
+.btn-primary.disabled:focus,
+.btn-primary.disabled.focus,
+.btn-primary[disabled]:hover,
+.btn-primary[disabled]:focus,
+.btn-primary[disabled].focus,
+fieldset[disabled] .btn-primary:hover,
+fieldset[disabled] .btn-primary:focus,
+fieldset[disabled] .btn-primary.focus {
+    background-color: rgb(38, 92, 154);
+    border-color: rgb(35, 82, 138);
+}
+.btn-primary .badge {
+    color: rgb(83, 152, 212);
+    background-color: rgb(24, 26, 27);
+}
+.btn-success {
+    color: rgb(232, 230, 227);
+    background-color: rgb(101, 169, 26);
+    border-color: rgb(94, 158, 24);
+}
+.btn-success:focus,
+.btn-success.focus {
+    color: rgb(232, 230, 227);
+    background-color: rgb(80, 134, 20);
+    border-color: rgb(110, 184, 29);
+}
+.btn-success:hover {
+    color: rgb(232, 230, 227);
+    background-color: rgb(80, 134, 20);
+    border-color: rgb(104, 174, 26);
+}
+.btn-success:active,
+.btn-success.active,
+.open > .btn-success.dropdown-toggle {
+    color: rgb(232, 230, 227);
+    background-color: rgb(80, 134, 20);
+    border-color: rgb(104, 174, 26);
+}
+.btn-success:active:hover,
+.btn-success:active:focus,
+.btn-success:active.focus,
+.btn-success.active:hover,
+.btn-success.active:focus,
+.btn-success.active.focus,
+.open > .btn-success.dropdown-toggle:hover,
+.open > .btn-success.dropdown-toggle:focus,
+.open > .btn-success.dropdown-toggle.focus {
+    color: rgb(232, 230, 227);
+    background-color: rgb(65, 109, 17);
+    border-color: rgb(110, 184, 29);
+}
+.btn-success:active,
+.btn-success.active,
+.open > .btn-success.dropdown-toggle {
+    background-image: none;
+}
+.btn-success.disabled:hover,
+.btn-success.disabled:focus,
+.btn-success.disabled.focus,
+.btn-success[disabled]:hover,
+.btn-success[disabled]:focus,
+.btn-success[disabled].focus,
+fieldset[disabled] .btn-success:hover,
+fieldset[disabled] .btn-success:focus,
+fieldset[disabled] .btn-success.focus {
+    background-color: rgb(101, 169, 26);
+    border-color: rgb(94, 158, 24);
+}
+.btn-success .badge {
+    color: rgb(149, 226, 63);
+    background-color: rgb(24, 26, 27);
+}
+.btn-info {
+    color: rgb(232, 230, 227);
+    background-color: rgb(28, 115, 141);
+    border-color: rgb(27, 110, 134);
+}
+.btn-info:focus,
+.btn-info.focus {
+    color: rgb(232, 230, 227);
+    background-color: rgb(34, 136, 166);
+    border-color: rgb(32, 131, 160);
+}
+.btn-info:hover {
+    color: rgb(232, 230, 227);
+    background-color: rgb(34, 136, 166);
+    border-color: rgb(30, 122, 150);
+}
+.btn-info:active,
+.btn-info.active,
+.open > .btn-info.dropdown-toggle {
+    color: rgb(232, 230, 227);
+    background-color: rgb(34, 136, 166);
+    border-color: rgb(30, 122, 150);
+}
+.btn-info:active:hover,
+.btn-info:active:focus,
+.btn-info:active.focus,
+.btn-info.active:hover,
+.btn-info.active:focus,
+.btn-info.active.focus,
+.open > .btn-info.dropdown-toggle:hover,
+.open > .btn-info.dropdown-toggle:focus,
+.open > .btn-info.dropdown-toggle.focus {
+    color: rgb(232, 230, 227);
+    background-color: rgb(30, 123, 150);
+    border-color: rgb(32, 131, 160);
+}
+.btn-info:active,
+.btn-info.active,
+.open > .btn-info.dropdown-toggle {
+    background-image: none;
+}
+.btn-info.disabled:hover,
+.btn-info.disabled:focus,
+.btn-info.disabled.focus,
+.btn-info[disabled]:hover,
+.btn-info[disabled]:focus,
+.btn-info[disabled].focus,
+fieldset[disabled] .btn-info:hover,
+fieldset[disabled] .btn-info:focus,
+fieldset[disabled] .btn-info.focus {
+    background-color: rgb(28, 115, 141);
+    border-color: rgb(27, 110, 134);
+}
+.btn-info .badge {
+    color: rgb(98, 195, 223);
+    background-color: rgb(24, 26, 27);
+}
+.btn-warning {
+    color: rgb(232, 230, 227);
+    background-color: rgb(181, 116, 8);
+    border-color: rgb(164, 105, 7);
+}
+.btn-warning:focus,
+.btn-warning.focus {
+    color: rgb(232, 230, 227);
+    background-color: rgb(175, 112, 8);
+    border-color: rgb(193, 123, 9);
+}
+.btn-warning:hover {
+    color: rgb(232, 230, 227);
+    background-color: rgb(175, 112, 8);
+    border-color: rgb(181, 116, 9);
+}
+.btn-warning:active,
+.btn-warning.active,
+.open > .btn-warning.dropdown-toggle {
+    color: rgb(232, 230, 227);
+    background-color: rgb(175, 112, 8);
+    border-color: rgb(181, 116, 9);
+}
+.btn-warning:active:hover,
+.btn-warning:active:focus,
+.btn-warning:active.focus,
+.btn-warning.active:hover,
+.btn-warning.active:focus,
+.btn-warning.active.focus,
+.open > .btn-warning.dropdown-toggle:hover,
+.open > .btn-warning.dropdown-toggle:focus,
+.open > .btn-warning.dropdown-toggle.focus {
+    color: rgb(232, 230, 227);
+    background-color: rgb(148, 95, 6);
+    border-color: rgb(193, 123, 9);
+}
+.btn-warning:active,
+.btn-warning.active,
+.open > .btn-warning.dropdown-toggle {
+    background-image: none;
+}
+.btn-warning.disabled:hover,
+.btn-warning.disabled:focus,
+.btn-warning.disabled.focus,
+.btn-warning[disabled]:hover,
+.btn-warning[disabled]:focus,
+.btn-warning[disabled].focus,
+fieldset[disabled] .btn-warning:hover,
+fieldset[disabled] .btn-warning:focus,
+fieldset[disabled] .btn-warning.focus {
+    background-color: rgb(181, 116, 8);
+    border-color: rgb(164, 105, 7);
+}
+.btn-warning .badge {
+    color: rgb(246, 173, 52);
+    background-color: rgb(24, 26, 27);
+}
+.btn-danger {
+    color: rgb(232, 230, 227);
+    background-color: rgb(166, 1, 22);
+    border-color: rgb(191, 1, 25);
+}
+.btn-danger:focus,
+.btn-danger.focus {
+    color: rgb(232, 230, 227);
+    background-color: rgb(126, 1, 16);
+    border-color: rgb(221, 2, 29);
+}
+.btn-danger:hover {
+    color: rgb(232, 230, 227);
+    background-color: rgb(126, 1, 16);
+    border-color: rgb(209, 1, 27);
+}
+.btn-danger:active,
+.btn-danger.active,
+.open > .btn-danger.dropdown-toggle {
+    color: rgb(232, 230, 227);
+    background-color: rgb(126, 1, 16);
+    border-color: rgb(209, 1, 27);
+}
+.btn-danger:active:hover,
+.btn-danger:active:focus,
+.btn-danger:active.focus,
+.btn-danger.active:hover,
+.btn-danger.active:focus,
+.btn-danger.active.focus,
+.open > .btn-danger.dropdown-toggle:hover,
+.open > .btn-danger.dropdown-toggle:focus,
+.open > .btn-danger.dropdown-toggle.focus {
+    color: rgb(232, 230, 227);
+    background-color: rgb(98, 1, 13);
+    border-color: rgb(221, 2, 29);
+}
+.btn-danger:active,
+.btn-danger.active,
+.open > .btn-danger.dropdown-toggle {
+    background-image: none;
+}
+.btn-danger.disabled:hover,
+.btn-danger.disabled:focus,
+.btn-danger.disabled.focus,
+.btn-danger[disabled]:hover,
+.btn-danger[disabled]:focus,
+.btn-danger[disabled].focus,
+fieldset[disabled] .btn-danger:hover,
+fieldset[disabled] .btn-danger:focus,
+fieldset[disabled] .btn-danger.focus {
+    background-color: rgb(166, 1, 22);
+    border-color: rgb(191, 1, 25);
+}
+.btn-danger .badge {
+    color: rgb(254, 59, 83);
+    background-color: rgb(24, 26, 27);
+}
+.btn-link {
+    color: rgb(83, 152, 212);
+}
+.btn-link,
+.btn-link:active,
+.btn-link.active,
+.btn-link[disabled],
+fieldset[disabled] .btn-link {
+    background-color: transparent;
+    box-shadow: none;
+}
+.btn-link,
+.btn-link:hover,
+.btn-link:focus,
+.btn-link:active {
+    border-color: transparent;
+}
+.btn-link:hover,
+.btn-link:focus {
+    color: rgb(119, 174, 221);
+    text-decoration-color: initial;
+    background-color: transparent;
+}
+.btn-link[disabled]:hover,
+.btn-link[disabled]:focus,
+fieldset[disabled] .btn-link:hover,
+fieldset[disabled] .btn-link:focus {
+    color: rgb(157, 148, 136);
+    text-decoration-color: initial;
+}
+.caret {
+    border-top-color: initial;
+    border-right-color: transparent;
+    border-left-color: transparent;
+}
+.dropdown-toggle:focus {
+    outline-color: initial;
+}
+.dropdown-menu {
+    list-style-image: initial;
+    background-color: rgb(24, 26, 27);
+    border-color: rgba(140, 130, 115, 0.15);
+    box-shadow: rgba(0, 0, 0, 0.18) 0px 6px 12px;
+}
+.dropdown-menu .divider {
+    background-color: rgb(82, 88, 92);
+}
+.dropdown-menu > li > a {
+    color: rgb(163, 155, 142);
+}
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+    text-decoration-color: initial;
+    color: rgb(181, 174, 165);
+    background-color: rgb(30, 32, 33);
+}
+.dropdown-menu > .active > a,
+.dropdown-menu > .active > a:hover,
+.dropdown-menu > .active > a:focus {
+    color: rgb(232, 230, 227);
+    text-decoration-color: initial;
+    outline-color: initial;
+    background-color: rgb(38, 92, 154);
+}
+.dropdown-menu > .disabled > a,
+.dropdown-menu > .disabled > a:hover,
+.dropdown-menu > .disabled > a:focus {
+    color: rgb(157, 148, 136);
+}
+.dropdown-menu > .disabled > a:hover,
+.dropdown-menu > .disabled > a:focus {
+    text-decoration-color: initial;
+    background-color: transparent;
+    background-image: none;
+}
+.open > a {
+    outline-color: initial;
+}
+.dropdown-header {
+    color: rgb(157, 148, 136);
+}
+.dropup .caret,
+.navbar-fixed-bottom .dropdown .caret {
+    border-top-color: initial;
+    border-bottom-color: initial;
+}
+.btn-group .dropdown-toggle:active,
+.btn-group.open .dropdown-toggle {
+    outline-color: initial;
+}
+.btn-group.open .dropdown-toggle {
+    box-shadow: rgba(0, 0, 0, 0.13) 0px 3px 5px inset;
+}
+.btn-group.open .dropdown-toggle.btn-link {
+    box-shadow: none;
+}
+.input-group-addon {
+    color: rgb(211, 207, 201);
+    background-color: rgb(34, 36, 38);
+    border-color: rgb(56, 60, 63);
+}
+.input-group-addon:first-child {
+    border-right-color: initial;
+}
+.input-group-addon:last-child {
+    border-left-color: initial;
+}
+.nav {
+    list-style-image: initial;
+}
+.nav > li > a:hover,
+.nav > li > a:focus {
+    text-decoration-color: initial;
+    background-color: rgb(34, 36, 38);
+}
+.nav > li.disabled > a {
+    color: rgb(157, 148, 136);
+}
+.nav > li.disabled > a:hover,
+.nav > li.disabled > a:focus {
+    color: rgb(157, 148, 136);
+    text-decoration-color: initial;
+    background-color: transparent;
+}
+.nav .open > a,
+.nav .open > a:hover,
+.nav .open > a:focus {
+    background-color: rgb(34, 36, 38);
+    border-color: rgb(35, 82, 138);
+}
+.nav .nav-divider {
+    background-color: rgb(39, 42, 44);
+}
+.nav-tabs {
+    border-bottom-color: rgb(59, 64, 66);
+}
+.nav-tabs > li > a {
+    border-color: transparent;
+}
+.nav-tabs > li > a:hover {
+    border-color: rgba(140, 130, 115, 0) rgba(140, 130, 115, 0) rgb(59, 64, 66);
+}
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+    color: rgb(211, 207, 201);
+    background-color: rgb(24, 26, 27);
+    border-color: rgba(140, 130, 115, 0) rgba(140, 130, 115, 0) transparent;
+}
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus {
+    color: rgb(232, 230, 227);
+    background-color: rgb(26, 28, 29);
+}
+.nav-tabs-justified,
+.nav-tabs.nav-justified {
+    border-bottom-color: initial;
+}
+.nav-tabs-justified > .active > a,
+.nav-tabs.nav-justified > .active > a,
+.nav-tabs-justified > .active > a:hover,
+.nav-tabs.nav-justified > .active > a:hover,
+.nav-tabs-justified > .active > a:focus,
+.nav-tabs.nav-justified > .active > a:focus {
+    border-color: rgb(58, 62, 65);
+}
+@media (min-width: 768px) {
+    .nav-tabs-justified > li > a,
+    .nav-tabs.nav-justified > li > a {
+        border-bottom-color: rgb(58, 62, 65);
+    }
+    .nav-tabs-justified > .active > a,
+    .nav-tabs.nav-justified > .active > a,
+    .nav-tabs-justified > .active > a:hover,
+    .nav-tabs.nav-justified > .active > a:hover,
+    .nav-tabs-justified > .active > a:focus,
+    .nav-tabs.nav-justified > .active > a:focus {
+        border-bottom-color: rgb(48, 52, 54);
+    }
+}
+.navbar {
+    border-color: transparent;
+}
+.navbar-collapse {
+    border-top-color: transparent;
+    box-shadow: rgba(24, 26, 27, 0.1) 0px 1px 0px inset;
+}
+@media (min-width: 992px) {
+    .navbar-collapse {
+        border-top-color: initial;
+        box-shadow: none;
+    }
+}
+.navbar-brand:hover,
+.navbar-brand:focus {
+    text-decoration-color: initial;
+}
+.navbar-toggle {
+    background-color: transparent;
+    background-image: none;
+    border-color: transparent;
+}
+.navbar-toggle:focus {
+    outline-color: initial;
+}
+@media (max-width: 991px) {
+    .navbar-nav .open .dropdown-menu {
+        background-color: transparent;
+        border-color: initial;
+        box-shadow: none;
+    }
+    .navbar-nav .open .dropdown-menu > li > a:hover,
+    .navbar-nav .open .dropdown-menu > li > a:focus {
+        background-image: none;
+    }
+}
+.navbar-form {
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+    box-shadow: rgba(24, 26, 27, 0.1) 0px 1px 0px inset,
+    rgba(24, 26, 27, 0.1) 0px 1px 0px;
+}
+@media (min-width: 992px) {
+    .navbar-form {
+        border-color: initial;
+        box-shadow: none;
+    }
+}
+.navbar-default {
+    background-color: rgb(24, 26, 27);
+    border-color: rgb(56, 60, 63);
+}
+.navbar-default .navbar-brand {
+    color: rgb(163, 155, 142);
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: rgb(157, 148, 135);
+    background-color: rgba(0, 0, 0, 0);
+}
+.navbar-default .navbar-text {
+    color: rgb(163, 155, 142);
+}
+.navbar-default .navbar-nav > li > a {
+    color: rgb(163, 155, 142);
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: rgb(181, 174, 165);
+    background-color: rgba(0, 0, 0, 0);
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: rgb(232, 230, 227);
+    background-color: rgba(0, 0, 0, 0);
+}
+.navbar-default .navbar-nav > .disabled > a,
+.navbar-default .navbar-nav > .disabled > a:hover,
+.navbar-default .navbar-nav > .disabled > a:focus {
+    color: rgb(200, 195, 188);
+    background-color: rgba(0, 0, 0, 0);
+}
+.navbar-default .navbar-toggle {
+    border-color: rgba(140, 130, 115, 0);
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: rgb(43, 47, 49);
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: rgb(86, 93, 97);
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+    border-color: rgb(56, 60, 63);
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(232, 230, 227);
+}
+@media (max-width: 991px) {
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+        color: rgb(163, 155, 142);
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+        color: rgb(181, 174, 165);
+        background-color: rgba(0, 0, 0, 0);
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+    .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+        color: rgb(232, 230, 227);
+        background-color: rgba(0, 0, 0, 0);
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a,
+    .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+        color: rgb(200, 195, 188);
+        background-color: rgba(0, 0, 0, 0);
+    }
+}
+.navbar-default .navbar-link {
+    color: rgb(163, 155, 142);
+}
+.navbar-default .navbar-link:hover {
+    color: rgb(181, 174, 165);
+}
+.navbar-default .btn-link {
+    color: rgb(163, 155, 142);
+}
+.navbar-default .btn-link:hover,
+.navbar-default .btn-link:focus {
+    color: rgb(181, 174, 165);
+}
+.navbar-default .btn-link[disabled]:hover,
+.navbar-default .btn-link[disabled]:focus,
+fieldset[disabled] .navbar-default .btn-link:hover,
+fieldset[disabled] .navbar-default .btn-link:focus {
+    color: rgb(200, 195, 188);
+}
+.navbar-inverse {
+    background-color: rgb(26, 28, 29);
+    border-color: rgb(137, 127, 113);
+}
+.navbar-inverse .navbar-brand {
+    color: rgb(170, 163, 152);
+}
+.navbar-inverse .navbar-brand:hover,
+.navbar-inverse .navbar-brand:focus {
+    color: rgb(232, 230, 227);
+    background-color: rgba(0, 0, 0, 0);
+}
+.navbar-inverse .navbar-text {
+    color: rgb(170, 163, 152);
+}
+.navbar-inverse .navbar-nav > li > a {
+    color: rgb(170, 163, 152);
+}
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+    color: rgb(232, 230, 227);
+    background-color: rgba(0, 0, 0, 0);
+}
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+    color: rgb(232, 230, 227);
+    background-color: rgb(6, 7, 7);
+}
+.navbar-inverse .navbar-nav > .disabled > a,
+.navbar-inverse .navbar-nav > .disabled > a:hover,
+.navbar-inverse .navbar-nav > .disabled > a:focus {
+    color: rgb(189, 183, 175);
+    background-color: rgba(0, 0, 0, 0);
+}
+.navbar-inverse .navbar-toggle {
+    border-color: rgb(123, 114, 101);
+}
+.navbar-inverse .navbar-toggle:hover,
+.navbar-inverse .navbar-toggle:focus {
+    background-color: rgb(38, 42, 43);
+}
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: rgb(24, 26, 27);
+}
+.navbar-inverse .navbar-collapse,
+.navbar-inverse .navbar-form {
+    border-color: rgb(135, 125, 111);
+}
+.navbar-inverse .navbar-nav > .open > a,
+.navbar-inverse .navbar-nav > .open > a:hover,
+.navbar-inverse .navbar-nav > .open > a:focus {
+    background-color: rgb(6, 7, 7);
+    color: rgb(232, 230, 227);
+}
+@media (max-width: 991px) {
+    .navbar-inverse .navbar-nav .open .dropdown-menu > .dropdown-header {
+        border-color: rgb(137, 127, 113);
+    }
+    .navbar-inverse .navbar-nav .open .dropdown-menu .divider {
+        background-color: rgb(6, 7, 7);
+    }
+    .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
+        color: rgb(170, 163, 152);
+    }
+    .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover,
+    .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus {
+        color: rgb(232, 230, 227);
+        background-color: rgba(0, 0, 0, 0);
+    }
+    .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a,
+    .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:hover,
+    .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:focus {
+        color: rgb(232, 230, 227);
+        background-color: rgb(6, 7, 7);
+    }
+    .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a,
+    .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+    .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+        color: rgb(189, 183, 175);
+        background-color: rgba(0, 0, 0, 0);
+    }
+}
+.navbar-inverse .navbar-link {
+    color: rgb(170, 163, 152);
+}
+.navbar-inverse .navbar-link:hover {
+    color: rgb(232, 230, 227);
+}
+.navbar-inverse .btn-link {
+    color: rgb(170, 163, 152);
+}
+.navbar-inverse .btn-link:hover,
+.navbar-inverse .btn-link:focus {
+    color: rgb(232, 230, 227);
+}
+.navbar-inverse .btn-link[disabled]:hover,
+.navbar-inverse .btn-link[disabled]:focus,
+fieldset[disabled] .navbar-inverse .btn-link:hover,
+fieldset[disabled] .navbar-inverse .btn-link:focus {
+    color: rgb(189, 183, 175);
+}
+.breadcrumb {
+    list-style-image: initial;
+    background-color: rgba(0, 0, 0, 0);
+}
+.breadcrumb > li + li::before {
+    color: rgb(83, 152, 212);
+}
+.breadcrumb > .active {
+    color: rgb(211, 207, 201);
+}
+.pagination > li > a,
+.pagination > li > span {
+    text-decoration-color: initial;
+    color: rgb(83, 152, 212);
+    background-color: rgb(24, 26, 27);
+    border-color: rgb(58, 62, 65);
+}
+.pagination > li > a:hover,
+.pagination > li > a:focus,
+.pagination > li > span:hover,
+.pagination > li > span:focus {
+    color: rgb(119, 174, 221);
+    background-color: rgb(34, 36, 38);
+    border-color: rgb(58, 62, 65);
+}
+.pagination > .active > a,
+.pagination > .active > a:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span,
+.pagination > .active > span:hover,
+.pagination > .active > span:focus {
+    color: rgb(232, 230, 227);
+    background-color: rgb(38, 92, 154);
+    border-color: rgb(35, 82, 138);
+}
+.pagination > .disabled > span,
+.pagination > .disabled > span:hover,
+.pagination > .disabled > span:focus,
+.pagination > .disabled > a,
+.pagination > .disabled > a:hover,
+.pagination > .disabled > a:focus {
+    color: rgb(157, 148, 136);
+    background-color: rgb(24, 26, 27);
+    border-color: rgb(58, 62, 65);
+}
+.pager {
+    list-style-image: initial;
+}
+.pager li > a,
+.pager li > span {
+    background-color: rgb(24, 26, 27);
+    border-color: rgb(58, 62, 65);
+}
+.pager li > a:hover,
+.pager li > a:focus {
+    text-decoration-color: initial;
+    background-color: rgb(34, 36, 38);
+}
+.pager .disabled > a,
+.pager .disabled > a:hover,
+.pager .disabled > a:focus,
+.pager .disabled > span {
+    color: rgb(157, 148, 136);
+    background-color: rgb(24, 26, 27);
+}
+.label {
+    color: rgb(232, 230, 227);
+}
+a.label:hover,
+a.label:focus {
+    color: rgb(232, 230, 227);
+    text-decoration-color: initial;
+}
+.label-default {
+    background-color: rgb(90, 97, 101);
+}
+.label-default[href]:hover,
+.label-default[href]:focus {
+    background-color: rgb(71, 77, 80);
+}
+.label-primary {
+    background-color: rgb(38, 92, 154);
+}
+.label-primary[href]:hover,
+.label-primary[href]:focus {
+    background-color: rgb(36, 86, 143);
+}
+.label-success {
+    background-color: rgb(101, 169, 26);
+}
+.label-success[href]:hover,
+.label-success[href]:focus {
+    background-color: rgb(80, 134, 20);
+}
+.label-info {
+    background-color: rgb(28, 115, 141);
+}
+.label-info[href]:hover,
+.label-info[href]:focus {
+    background-color: rgb(34, 136, 166);
+}
+.label-warning {
+    background-color: rgb(181, 116, 8);
+}
+.label-warning[href]:hover,
+.label-warning[href]:focus {
+    background-color: rgb(175, 112, 8);
+}
+.label-danger {
+    background-color: rgb(166, 1, 22);
+}
+.label-danger[href]:hover,
+.label-danger[href]:focus {
+    background-color: rgb(126, 1, 16);
+}
+.badge {
+    color: rgb(232, 230, 227);
+    background-color: rgb(86, 93, 97);
+}
+.list-group-item.active > .badge,
+.nav-pills > .active > a > .badge {
+    color: rgb(83, 152, 212);
+    background-color: rgb(24, 26, 27);
+}
+a.badge:hover,
+a.badge:focus {
+    color: rgb(232, 230, 227);
+    text-decoration-color: initial;
+}
+.jumbotron {
+    color: inherit;
+    background-color: rgb(34, 36, 38);
+}
+.jumbotron h1,
+.jumbotron .h1 {
+    color: inherit;
+}
+.jumbotron > hr {
+    border-top-color: rgb(60, 65, 67);
+}
+.thumbnail {
+    background-color: rgb(24, 26, 27);
+    border-color: rgb(58, 62, 65);
+}
+.thumbnail .caption {
+    color: rgb(211, 207, 201);
+}
+a.thumbnail:hover,
+a.thumbnail:focus,
+a.thumbnail.active {
+    border-color: rgb(35, 82, 138);
+}
+.alert {
+    border-color: transparent;
+}
+.alert h4 {
+    color: inherit;
+}
+.alert-dismissable .close,
+.alert-dismissible .close {
+    color: inherit;
+}
+.alert-success {
+    background-color: rgb(60, 82, 18);
+    border-color: rgb(66, 103, 23);
+    color: rgb(211, 207, 201);
+}
+.alert-success hr {
+    border-top-color: rgb(71, 110, 25);
+}
+.alert-success .alert-link {
+    color: rgb(227, 224, 220);
+}
+.alert-info {
+    background-color: rgb(30, 32, 33);
+    border-color: rgb(51, 55, 57);
+    color: rgb(211, 207, 201);
+}
+.alert-info hr {
+    border-top-color: rgb(54, 59, 61);
+}
+.alert-info .alert-link {
+    color: rgb(227, 224, 220);
+}
+.alert-warning {
+    background-color: rgb(69, 64, 2);
+    border-color: rgb(121, 112, 3);
+    color: rgb(211, 207, 201);
+}
+.alert-warning hr {
+    border-top-color: rgb(128, 120, 4);
+}
+.alert-warning .alert-link {
+    color: rgb(227, 224, 220);
+}
+.alert-danger {
+    background-color: rgb(74, 0, 2);
+    border-color: rgb(114, 0, 3);
+    color: rgb(211, 207, 201);
+}
+.alert-danger hr {
+    border-top-color: rgb(121, 0, 2);
+}
+.alert-danger .alert-link {
+    color: rgb(227, 224, 220);
+}
+.progress {
+    background-color: rgb(30, 32, 33);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px inset;
+}
+.progress-bar {
+    color: rgb(232, 230, 227);
+    background-color: rgb(38, 92, 154);
+    box-shadow: rgba(0, 0, 0, 0.15) 0px -1px 0px inset;
+}
+.progress-striped .progress-bar,
+.progress-bar-striped {
+    background-image: linear-gradient(45deg,
+    rgba(24, 26, 27, 0.15) 25%,
+    rgba(0, 0, 0, 0) 25%,
+    rgba(0, 0, 0, 0) 50%,
+    rgba(24, 26, 27, 0.15) 50%,
+    rgba(24, 26, 27, 0.15) 75%,
+    rgba(0, 0, 0, 0) 75%,
+    rgba(0, 0, 0, 0));
+}
+.progress-bar-success {
+    background-color: rgb(101, 169, 26);
+}
+.progress-striped .progress-bar-success {
+    background-image: linear-gradient(45deg,
+    rgba(24, 26, 27, 0.15) 25%,
+    rgba(0, 0, 0, 0) 25%,
+    rgba(0, 0, 0, 0) 50%,
+    rgba(24, 26, 27, 0.15) 50%,
+    rgba(24, 26, 27, 0.15) 75%,
+    rgba(0, 0, 0, 0) 75%,
+    rgba(0, 0, 0, 0));
+}
+.progress-bar-info {
+    background-color: rgb(28, 115, 141);
+}
+.progress-striped .progress-bar-info {
+    background-image: linear-gradient(45deg,
+    rgba(24, 26, 27, 0.15) 25%,
+    rgba(0, 0, 0, 0) 25%,
+    rgba(0, 0, 0, 0) 50%,
+    rgba(24, 26, 27, 0.15) 50%,
+    rgba(24, 26, 27, 0.15) 75%,
+    rgba(0, 0, 0, 0) 75%,
+    rgba(0, 0, 0, 0));
+}
+.progress-bar-warning {
+    background-color: rgb(181, 116, 8);
+}
+.progress-striped .progress-bar-warning {
+    background-image: linear-gradient(45deg,
+    rgba(24, 26, 27, 0.15) 25%,
+    rgba(0, 0, 0, 0) 25%,
+    rgba(0, 0, 0, 0) 50%,
+    rgba(24, 26, 27, 0.15) 50%,
+    rgba(24, 26, 27, 0.15) 75%,
+    rgba(0, 0, 0, 0) 75%,
+    rgba(0, 0, 0, 0));
+}
+.progress-bar-danger {
+    background-color: rgb(166, 1, 22);
+}
+.progress-striped .progress-bar-danger {
+    background-image: linear-gradient(45deg,
+    rgba(24, 26, 27, 0.15) 25%,
+    rgba(0, 0, 0, 0) 25%,
+    rgba(0, 0, 0, 0) 50%,
+    rgba(24, 26, 27, 0.15) 50%,
+    rgba(24, 26, 27, 0.15) 75%,
+    rgba(0, 0, 0, 0) 75%,
+    rgba(0, 0, 0, 0));
+}
+.media-list {
+    list-style-image: initial;
+}
+.list-group-item {
+    background-color: rgb(24, 26, 27);
+    border-color: rgb(58, 62, 65);
+}
+a.list-group-item,
+button.list-group-item {
+    color: rgb(178, 172, 162);
+}
+a.list-group-item .list-group-item-heading,
+button.list-group-item .list-group-item-heading {
+    color: rgb(200, 195, 188);
+}
+a.list-group-item:hover,
+a.list-group-item:focus,
+button.list-group-item:hover,
+button.list-group-item:focus {
+    text-decoration-color: initial;
+    color: rgb(178, 172, 162);
+    background-color: rgb(30, 32, 33);
+}
+.list-group-item.disabled,
+.list-group-item.disabled:hover,
+.list-group-item.disabled:focus {
+    background-color: rgb(34, 36, 38);
+    color: rgb(157, 148, 136);
+}
+.list-group-item.disabled .list-group-item-heading,
+.list-group-item.disabled:hover .list-group-item-heading,
+.list-group-item.disabled:focus .list-group-item-heading {
+    color: inherit;
+}
+.list-group-item.disabled .list-group-item-text,
+.list-group-item.disabled:hover .list-group-item-text,
+.list-group-item.disabled:focus .list-group-item-text {
+    color: rgb(157, 148, 136);
+}
+.list-group-item.active,
+.list-group-item.active:hover,
+.list-group-item.active:focus {
+    color: rgb(232, 230, 227);
+    background-color: rgb(38, 92, 154);
+    border-color: rgb(35, 82, 138);
+}
+.list-group-item.active .list-group-item-heading,
+.list-group-item.active .list-group-item-heading > small,
+.list-group-item.active .list-group-item-heading > .small,
+.list-group-item.active:hover .list-group-item-heading,
+.list-group-item.active:hover .list-group-item-heading > small,
+.list-group-item.active:hover .list-group-item-heading > .small,
+.list-group-item.active:focus .list-group-item-heading,
+.list-group-item.active:focus .list-group-item-heading > small,
+.list-group-item.active:focus .list-group-item-heading > .small {
+    color: inherit;
+}
+.list-group-item.active .list-group-item-text,
+.list-group-item.active:hover .list-group-item-text,
+.list-group-item.active:focus .list-group-item-text {
+    color: rgb(196, 221, 241);
+}
+.list-group-item-success {
+    color: rgb(149, 226, 63);
+    background-color: rgb(45, 62, 13);
+}
+a.list-group-item-success,
+button.list-group-item-success {
+    color: rgb(149, 226, 63);
+}
+a.list-group-item-success .list-group-item-heading,
+button.list-group-item-success .list-group-item-heading {
+    color: inherit;
+}
+a.list-group-item-success:hover,
+a.list-group-item-success:focus,
+button.list-group-item-success:hover,
+button.list-group-item-success:focus {
+    color: rgb(149, 226, 63);
+    background-color: rgb(54, 75, 15);
+}
+a.list-group-item-success.active,
+a.list-group-item-success.active:hover,
+a.list-group-item-success.active:focus,
+button.list-group-item-success.active,
+button.list-group-item-success.active:hover,
+button.list-group-item-success.active:focus {
+    color: rgb(232, 230, 227);
+    background-color: rgb(101, 169, 26);
+    border-color: rgb(94, 158, 24);
+}
+.list-group-item-info {
+    color: rgb(129, 175, 214);
+    background-color: rgb(31, 33, 35);
+}
+a.list-group-item-info,
+button.list-group-item-info {
+    color: rgb(129, 175, 214);
+}
+a.list-group-item-info .list-group-item-heading,
+button.list-group-item-info .list-group-item-heading {
+    color: inherit;
+}
+a.list-group-item-info:hover,
+a.list-group-item-info:focus,
+button.list-group-item-info:hover,
+button.list-group-item-info:focus {
+    color: rgb(129, 175, 214);
+    background-color: rgb(38, 41, 43);
+}
+a.list-group-item-info.active,
+a.list-group-item-info.active:hover,
+a.list-group-item-info.active:focus,
+button.list-group-item-info.active,
+button.list-group-item-info.active:hover,
+button.list-group-item-info.active:focus {
+    color: rgb(232, 230, 227);
+    background-color: rgb(38, 74, 117);
+    border-color: rgb(48, 94, 149);
+}
+.list-group-item-warning {
+    color: rgb(246, 173, 52);
+    background-color: rgb(51, 47, 2);
+}
+a.list-group-item-warning,
+button.list-group-item-warning {
+    color: rgb(246, 173, 52);
+}
+a.list-group-item-warning .list-group-item-heading,
+button.list-group-item-warning .list-group-item-heading {
+    color: inherit;
+}
+a.list-group-item-warning:hover,
+a.list-group-item-warning:focus,
+button.list-group-item-warning:hover,
+button.list-group-item-warning:focus {
+    color: rgb(246, 173, 52);
+    background-color: rgb(62, 58, 2);
+}
+a.list-group-item-warning.active,
+a.list-group-item-warning.active:hover,
+a.list-group-item-warning.active:focus,
+button.list-group-item-warning.active,
+button.list-group-item-warning.active:hover,
+button.list-group-item-warning.active:focus {
+    color: rgb(232, 230, 227);
+    background-color: rgb(181, 116, 8);
+    border-color: rgb(164, 105, 7);
+}
+.list-group-item-danger {
+    color: rgb(246, 52, 52);
+    background-color: rgb(61, 12, 18);
+}
+a.list-group-item-danger,
+button.list-group-item-danger {
+    color: rgb(246, 52, 52);
+}
+a.list-group-item-danger .list-group-item-heading,
+button.list-group-item-danger .list-group-item-heading {
+    color: inherit;
+}
+a.list-group-item-danger:hover,
+a.list-group-item-danger:focus,
+button.list-group-item-danger:hover,
+button.list-group-item-danger:focus {
+    color: rgb(246, 52, 52);
+    background-color: rgb(73, 14, 22);
+}
+a.list-group-item-danger.active,
+a.list-group-item-danger.active:hover,
+a.list-group-item-danger.active:focus,
+button.list-group-item-danger.active,
+button.list-group-item-danger.active:hover,
+button.list-group-item-danger.active:focus {
+    color: rgb(232, 230, 227);
+    background-color: rgb(181, 8, 8);
+    border-color: rgb(164, 7, 7);
+}
+.panel {
+    background-color: rgb(24, 26, 27);
+    border-color: transparent;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 1px;
+}
+.panel-heading {
+    border-bottom-color: transparent;
+}
+.panel-heading > .dropdown .dropdown-toggle {
+    color: inherit;
+}
+.panel-title {
+    color: inherit;
+}
+.panel-title > a,
+.panel-title > small,
+.panel-title > .small,
+.panel-title > small > a,
+.panel-title > .small > a {
+    color: inherit;
+}
+.panel-footer {
+    background-color: rgb(30, 32, 33);
+    border-top-color: rgb(58, 62, 65);
+}
+.panel > .list-group:first-child .list-group-item:first-child,
+.panel > .panel-collapse > .list-group:first-child .list-group-item:first-child {
+    border-top-color: initial;
+}
+.panel > .list-group:last-child .list-group-item:last-child,
+.panel > .panel-collapse > .list-group:last-child .list-group-item:last-child {
+    border-bottom-color: initial;
+}
+.panel > .panel-body + .table,
+.panel > .panel-body + .table-responsive,
+.panel > .table + .panel-body,
+.panel > .table-responsive + .panel-body {
+    border-top-color: rgb(54, 58, 61);
+}
+.panel > .table > tbody:first-child > tr:first-child th,
+.panel > .table > tbody:first-child > tr:first-child td {
+    border-top-color: initial;
+}
+.panel > .table-bordered,
+.panel > .table-responsive > .table-bordered {
+    border-color: initial;
+}
+.panel > .table-bordered > thead > tr > th:first-child,
+.panel > .table-bordered > thead > tr > td:first-child,
+.panel > .table-bordered > tbody > tr > th:first-child,
+.panel > .table-bordered > tbody > tr > td:first-child,
+.panel > .table-bordered > tfoot > tr > th:first-child,
+.panel > .table-bordered > tfoot > tr > td:first-child,
+.panel > .table-responsive > .table-bordered > thead > tr > th:first-child,
+.panel > .table-responsive > .table-bordered > thead > tr > td:first-child,
+.panel > .table-responsive > .table-bordered > tbody > tr > th:first-child,
+.panel > .table-responsive > .table-bordered > tbody > tr > td:first-child,
+.panel > .table-responsive > .table-bordered > tfoot > tr > th:first-child,
+.panel > .table-responsive > .table-bordered > tfoot > tr > td:first-child {
+    border-left-color: initial;
+}
+.panel > .table-bordered > thead > tr > th:last-child,
+.panel > .table-bordered > thead > tr > td:last-child,
+.panel > .table-bordered > tbody > tr > th:last-child,
+.panel > .table-bordered > tbody > tr > td:last-child,
+.panel > .table-bordered > tfoot > tr > th:last-child,
+.panel > .table-bordered > tfoot > tr > td:last-child,
+.panel > .table-responsive > .table-bordered > thead > tr > th:last-child,
+.panel > .table-responsive > .table-bordered > thead > tr > td:last-child,
+.panel > .table-responsive > .table-bordered > tbody > tr > th:last-child,
+.panel > .table-responsive > .table-bordered > tbody > tr > td:last-child,
+.panel > .table-responsive > .table-bordered > tfoot > tr > th:last-child,
+.panel > .table-responsive > .table-bordered > tfoot > tr > td:last-child {
+    border-right-color: initial;
+}
+.panel > .table-bordered > thead > tr:first-child > td,
+.panel > .table-bordered > thead > tr:first-child > th,
+.panel > .table-bordered > tbody > tr:first-child > td,
+.panel > .table-bordered > tbody > tr:first-child > th,
+.panel > .table-responsive > .table-bordered > thead > tr:first-child > td,
+.panel > .table-responsive > .table-bordered > thead > tr:first-child > th,
+.panel > .table-responsive > .table-bordered > tbody > tr:first-child > td,
+.panel > .table-responsive > .table-bordered > tbody > tr:first-child > th {
+    border-bottom-color: initial;
+}
+.panel > .table-bordered > tbody > tr:last-child > td,
+.panel > .table-bordered > tbody > tr:last-child > th,
+.panel > .table-bordered > tfoot > tr:last-child > td,
+.panel > .table-bordered > tfoot > tr:last-child > th,
+.panel > .table-responsive > .table-bordered > tbody > tr:last-child > td,
+.panel > .table-responsive > .table-bordered > tbody > tr:last-child > th,
+.panel > .table-responsive > .table-bordered > tfoot > tr:last-child > td,
+.panel > .table-responsive > .table-bordered > tfoot > tr:last-child > th {
+    border-bottom-color: initial;
+}
+.panel > .table-responsive {
+    border-color: initial;
+}
+.panel-group .panel-heading {
+    border-bottom-color: initial;
+}
+.panel-group .panel-heading + .panel-collapse > .panel-body,
+.panel-group .panel-heading + .panel-collapse > .list-group {
+    border-top-color: rgb(58, 62, 65);
+}
+.panel-group .panel-footer {
+    border-top-color: initial;
+}
+.panel-group .panel-footer + .panel-collapse .panel-body {
+    border-bottom-color: rgb(58, 62, 65);
+}
+.panel-default {
+    border-color: rgb(58, 62, 65);
+}
+.panel-default > .panel-heading {
+    color: rgb(200, 195, 188);
+    background-color: rgb(30, 32, 33);
+    border-color: rgb(58, 62, 65);
+}
+.panel-default > .panel-heading + .panel-collapse > .panel-body {
+    border-top-color: rgb(58, 62, 65);
+}
+.panel-default > .panel-heading .badge {
+    color: rgb(226, 223, 219);
+    background-color: rgb(38, 42, 43);
+}
+.panel-default > .panel-footer + .panel-collapse > .panel-body {
+    border-bottom-color: rgb(58, 62, 65);
+}
+.panel-primary {
+    border-color: rgb(35, 82, 138);
+}
+.panel-primary > .panel-heading {
+    color: rgb(232, 230, 227);
+    background-color: rgb(38, 92, 154);
+    border-color: rgb(35, 82, 138);
+}
+.panel-primary > .panel-heading + .panel-collapse > .panel-body {
+    border-top-color: rgb(35, 82, 138);
+}
+.panel-primary > .panel-heading .badge {
+    color: rgb(83, 152, 212);
+    background-color: rgb(24, 26, 27);
+}
+.panel-primary > .panel-footer + .panel-collapse > .panel-body {
+    border-bottom-color: rgb(35, 82, 138);
+}
+.panel-success {
+    border-color: rgb(77, 101, 21);
+}
+.panel-success > .panel-heading {
+    color: rgb(149, 226, 63);
+    background-color: rgb(45, 62, 13);
+    border-color: rgb(77, 101, 21);
+}
+.panel-success > .panel-heading + .panel-collapse > .panel-body {
+    border-top-color: rgb(77, 101, 21);
+}
+.panel-success > .panel-heading .badge {
+    color: rgb(217, 241, 190);
+    background-color: rgb(101, 169, 26);
+}
+.panel-success > .panel-footer + .panel-collapse > .panel-body {
+    border-bottom-color: rgb(77, 101, 21);
+}
+.panel-info {
+    border-color: rgb(24, 71, 95);
+}
+.panel-info > .panel-heading {
+    color: rgb(129, 175, 214);
+    background-color: rgb(31, 33, 35);
+    border-color: rgb(24, 71, 95);
+}
+.panel-info > .panel-heading + .panel-collapse > .panel-body {
+    border-top-color: rgb(24, 71, 95);
+}
+.panel-info > .panel-heading .badge {
+    color: rgb(201, 223, 241);
+    background-color: rgb(38, 74, 117);
+}
+.panel-info > .panel-footer + .panel-collapse > .panel-body {
+    border-bottom-color: rgb(24, 71, 95);
+}
+.panel-warning {
+    border-color: rgb(115, 90, 4);
+}
+.panel-warning > .panel-heading {
+    color: rgb(246, 173, 52);
+    background-color: rgb(51, 47, 2);
+    border-color: rgb(115, 90, 4);
+}
+.panel-warning > .panel-heading + .panel-collapse > .panel-body {
+    border-top-color: rgb(115, 90, 4);
+}
+.panel-warning > .panel-heading .badge {
+    color: rgb(253, 248, 185);
+    background-color: rgb(181, 116, 8);
+}
+.panel-warning > .panel-footer + .panel-collapse > .panel-body {
+    border-bottom-color: rgb(115, 90, 4);
+}
+.panel-danger {
+    border-color: rgb(101, 20, 43);
+}
+.panel-danger > .panel-heading {
+    color: rgb(246, 52, 52);
+    background-color: rgb(61, 12, 18);
+    border-color: rgb(101, 20, 43);
+}
+.panel-danger > .panel-heading + .panel-collapse > .panel-body {
+    border-top-color: rgb(101, 20, 43);
+}
+.panel-danger > .panel-heading .badge {
+    color: rgb(242, 192, 198);
+    background-color: rgb(181, 8, 8);
+}
+.panel-danger > .panel-footer + .panel-collapse > .panel-body {
+    border-bottom-color: rgb(101, 20, 43);
+}
+.embed-responsive .embed-responsive-item,
+.embed-responsive iframe,
+.embed-responsive embed,
+.embed-responsive object,
+.embed-responsive video {
+    border-color: initial;
+}
+.well {
+    background-color: rgb(30, 32, 33);
+    border-color: rgb(56, 61, 63);
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 1px inset;
+}
+.well blockquote {
+    border-color: rgba(140, 130, 115, 0.15);
+}
+.close {
+    color: rgb(232, 230, 227);
+    text-shadow: none;
+}
+.close:hover,
+.close:focus {
+    color: rgb(232, 230, 227);
+    text-decoration-color: initial;
+}
+button.close {
+    background-image: initial;
+    background-color: transparent;
+    border-color: initial;
+}
+.modal {
+    outline-color: initial;
+}
+.modal-content {
+    background-color: rgb(24, 26, 27);
+    border-color: rgba(140, 130, 115, 0);
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 9px;
+    outline-color: initial;
+}
+.modal-backdrop {
+    background-color: rgb(0, 0, 0);
+}
+.modal-header {
+    border-bottom-color: rgba(140, 130, 115, 0);
+}
+.modal-footer {
+    border-top-color: rgba(140, 130, 115, 0);
+}
+@media (min-width: 768px) {
+    .modal-content {
+        box-shadow: rgba(0, 0, 0, 0.5) 0px 5px 15px;
+    }
+}
+.tooltip {
+    text-decoration-color: initial;
+    text-shadow: none;
+}
+.tooltip-inner {
+    color: rgb(232, 230, 227);
+    background-color: rgb(0, 0, 0);
+}
+.tooltip-arrow {
+    border-color: transparent;
+}
+.tooltip.top .tooltip-arrow {
+    border-top-color: rgb(140, 130, 115);
+}
+.tooltip.top-left .tooltip-arrow {
+    border-top-color: rgb(140, 130, 115);
+}
+.tooltip.top-right .tooltip-arrow {
+    border-top-color: rgb(140, 130, 115);
+}
+.tooltip.right .tooltip-arrow {
+    border-right-color: rgb(140, 130, 115);
+}
+.tooltip.left .tooltip-arrow {
+    border-left-color: rgb(140, 130, 115);
+}
+.tooltip.bottom .tooltip-arrow {
+    border-bottom-color: rgb(140, 130, 115);
+}
+.tooltip.bottom-left .tooltip-arrow {
+    border-bottom-color: rgb(140, 130, 115);
+}
+.tooltip.bottom-right .tooltip-arrow {
+    border-bottom-color: rgb(140, 130, 115);
+}
+.popover {
+    text-decoration-color: initial;
+    text-shadow: none;
+    background-color: rgb(31, 33, 35);
+    border-color: rgb(51, 56, 58);
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 10px;
+}
+.popover-title {
+    background-color: rgb(35, 38, 40);
+    border-bottom-color: rgb(57, 62, 64);
+}
+.popover > .arrow,
+.popover > .arrow::after {
+    border-color: transparent;
+}
+.popover.top > .arrow {
+    border-top-color: rgb(51, 56, 58);
+}
+.popover.top > .arrow::after {
+    border-top-color: rgb(51, 56, 58);
+}
+.popover.right > .arrow {
+    border-right-color: rgb(51, 56, 58);
+}
+.popover.right > .arrow::after {
+    border-right-color: rgb(51, 56, 58);
+}
+.popover.bottom > .arrow {
+    border-bottom-color: rgb(51, 56, 58);
+}
+.popover.bottom > .arrow::after {
+    border-bottom-color: rgb(51, 56, 58);
+}
+.popover.left > .arrow {
+    border-left-color: rgb(51, 56, 58);
+}
+.popover.left > .arrow::after {
+    border-left-color: rgb(51, 56, 58);
+}
+.carousel-control {
+    color: rgb(232, 230, 227);
+    text-shadow: rgba(0, 0, 0, 0.6) 0px 1px 2px;
+    background-color: rgba(0, 0, 0, 0);
+}
+.carousel-control.left {
+    background-image: linear-gradient(to right,
+    rgba(0, 0, 0, 0.5) 0%,
+    rgba(0, 0, 0, 0) 100%);
+}
+.carousel-control.right {
+    background-image: linear-gradient(to right,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.5) 100%);
+}
+.carousel-control:hover,
+.carousel-control:focus {
+    outline-color: initial;
+    color: rgb(232, 230, 227);
+    text-decoration-color: initial;
+}
+.carousel-indicators {
+    list-style-image: initial;
+}
+.carousel-indicators li {
+    border-color: rgb(48, 52, 54);
+    background-color: rgba(0, 0, 0, 0);
+}
+.carousel-indicators .active {
+    background-color: rgb(24, 26, 27);
+}
+.carousel-caption {
+    color: rgb(232, 230, 227);
+    text-shadow: rgba(0, 0, 0, 0.6) 0px 1px 2px;
+}
+.carousel-caption .btn {
+    text-shadow: none;
+}
+.text-hide {
+    color: transparent;
+    text-shadow: none;
+    background-color: transparent;
+    border-color: initial;
+}
+.bootstrap-select > .dropdown-toggle.bs-placeholder,
+.bootstrap-select > .dropdown-toggle.bs-placeholder:hover,
+.bootstrap-select > .dropdown-toggle.bs-placeholder:focus,
+.bootstrap-select > .dropdown-toggle.bs-placeholder:active {
+    color: rgb(168, 160, 149);
+}
+.bootstrap-select > .dropdown-toggle.bs-placeholder.btn-primary,
+.bootstrap-select > .dropdown-toggle.bs-placeholder.btn-secondary,
+.bootstrap-select > .dropdown-toggle.bs-placeholder.btn-success,
+.bootstrap-select > .dropdown-toggle.bs-placeholder.btn-danger,
+.bootstrap-select > .dropdown-toggle.bs-placeholder.btn-info,
+.bootstrap-select > .dropdown-toggle.bs-placeholder.btn-dark,
+.bootstrap-select > .dropdown-toggle.bs-placeholder.btn-primary:hover,
+.bootstrap-select > .dropdown-toggle.bs-placeholder.btn-secondary:hover,
+.bootstrap-select > .dropdown-toggle.bs-placeholder.btn-success:hover,
+.bootstrap-select > .dropdown-toggle.bs-placeholder.btn-danger:hover,
+.bootstrap-select > .dropdown-toggle.bs-placeholder.btn-info:hover,
+.bootstrap-select > .dropdown-toggle.bs-placeholder.btn-dark:hover,
+.bootstrap-select > .dropdown-toggle.bs-placeholder.btn-primary:focus,
+.bootstrap-select > .dropdown-toggle.bs-placeholder.btn-secondary:focus,
+.bootstrap-select > .dropdown-toggle.bs-placeholder.btn-success:focus,
+.bootstrap-select > .dropdown-toggle.bs-placeholder.btn-danger:focus,
+.bootstrap-select > .dropdown-toggle.bs-placeholder.btn-info:focus,
+.bootstrap-select > .dropdown-toggle.bs-placeholder.btn-dark:focus,
+.bootstrap-select > .dropdown-toggle.bs-placeholder.btn-primary:active,
+.bootstrap-select > .dropdown-toggle.bs-placeholder.btn-secondary:active,
+.bootstrap-select > .dropdown-toggle.bs-placeholder.btn-success:active,
+.bootstrap-select > .dropdown-toggle.bs-placeholder.btn-danger:active,
+.bootstrap-select > .dropdown-toggle.bs-placeholder.btn-info:active,
+.bootstrap-select > .dropdown-toggle.bs-placeholder.btn-dark:active {
+    color: rgba(232, 230, 227, 0.5);
+}
+.bootstrap-select > select {
+    border-color: initial;
+}
+.has-error .bootstrap-select .dropdown-toggle,
+.error .bootstrap-select .dropdown-toggle,
+.bootstrap-select.is-invalid .dropdown-toggle,
+.was-validated .bootstrap-select .selectpicker:invalid + .dropdown-toggle {
+    border-color: rgb(164, 7, 7);
+}
+.bootstrap-select.is-valid .dropdown-toggle,
+.was-validated .bootstrap-select .selectpicker:valid + .dropdown-toggle {
+    border-color: rgb(37, 156, 64);
+}
+.bootstrap-select .dropdown-toggle:focus {
+    outline-color: rgb(186, 123, 0) !important;
+}
+.bootstrap-select.form-control {
+    border-color: initial;
+}
+.bootstrap-select.disabled:focus,
+.bootstrap-select > .disabled:focus {
+    outline-color: initial !important;
+}
+.bootstrap-select .dropdown-menu > .inner:focus {
+    outline-color: initial !important;
+}
+.bootstrap-select .dropdown-menu.inner {
+    border-color: initial;
+    box-shadow: none;
+}
+.bootstrap-select .dropdown-menu li.active small {
+    color: rgba(232, 230, 227, 0.5) !important;
+}
+.bootstrap-select .dropdown-menu .notify {
+    background-image: initial;
+    background-color: rgb(30, 32, 33);
+    border-color: rgb(56, 61, 63);
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 1px inset;
+}
+.bootstrap-select .no-results {
+    background-image: initial;
+    background-color: rgb(30, 32, 33);
+}
+.bootstrap-select.show-menu-arrow .dropdown-toggle .filter-option::before {
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: rgba(62, 68, 70, 0.2);
+}
+.bootstrap-select.show-menu-arrow .dropdown-toggle .filter-option::after {
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: rgb(48, 52, 54);
+}
+.bootstrap-select.show-menu-arrow.dropup .dropdown-toggle .filter-option::before {
+    border-top-color: rgba(62, 68, 70, 0.2);
+    border-bottom-color: initial;
+}
+.bootstrap-select.show-menu-arrow.dropup .dropdown-toggle .filter-option::after {
+    border-top-color: rgb(48, 52, 54);
+    border-bottom-color: initial;
+}
+::selection {
+    background-color: rgb(42, 46, 47);
+    color: rgb(211, 207, 201);
+    text-shadow: none;
+}
+-webkit-::selection {
+    background-color: rgb(42, 46, 47);
+    color: rgb(211, 207, 201);
+    text-shadow: none;
+}
+.text-light {
+    color: rgb(157, 148, 136);
+}
+.bg-light-style .text-light {
+    color: rgb(178, 172, 162);
+}
+.text-info-muted {
+    color: rgb(134, 165, 192);
+}
+a.text-info-muted:hover,
+a.text-info-muted:focus {
+    color: rgb(110, 148, 180);
+}
+.page-header.page-header-no-hr {
+    border-bottom-color: initial;
+}
+a.text-muted:hover,
+a.text-muted:focus {
+    color: rgb(176, 169, 159);
+}
+.block-info {
+    color: rgb(157, 148, 136);
+}
+.bg-light-color {
+    background-image: initial;
+    background-color: rgb(27, 30, 31);
+}
+h5,
+.h5,
+.form-group > label {
+    color: rgb(168, 160, 149);
+}
+ul.form-messages {
+    list-style-image: initial;
+}
+input:not([type="radio"]),
+button {
+    box-shadow: none;
+}
+.has-success .form-control,
+.has-success .form-control:focus,
+.has-warning .form-control,
+.has-warning .form-control:focus,
+.has-error .form-control,
+.has-error .form-control:focus {
+    box-shadow: none;
+}
+.with-corner-cd .navbar-form .form-control {
+    color: rgb(163, 155, 142);
+}
+.form-control,
+.form-control:focus {
+    box-shadow: none;
+}
+.help-block {
+    color: rgb(183, 177, 168);
+}
+.help-form {
+    color: rgb(157, 148, 136);
+}
+.help-form.overpayment-callout {
+    color: rgb(211, 207, 201); 
+}
+.checkbox input[type="checkbox"] + i {
+    border-color: rgb(63, 68, 71);
+    background-image: initial;
+    background-color: rgb(24, 26, 27); 
+}
+.checkbox label:hover input[type="checkbox"] + i {
+    border-color: rgb(35, 82, 138); 
+}
+.checkbox input[type="checkbox"] + i::after {
+    background-image: initial;
+    background-color: rgb(24, 26, 27); 
+}
+.checkbox input[type="checkbox"] + i::before {
+    background-image: initial;
+    background-color: rgb(24, 26, 27); 
+}
+.checkbox input[type="checkbox"]:checked + i {
+    border-color: rgb(35, 82, 138);
+    background-color: rgb(38, 92, 154); 
+}
+.checkbox-switch input[type="checkbox"] + i {
+    background-image: initial;
+    background-color: rgb(53, 57, 59);
+    border-color: rgb(62, 68, 70); 
+}
+.checkbox-switch label:hover input[type="checkbox"] + i, label:hover .checkbox-switch input[type="checkbox"] + i {
+    background-image: initial;
+    background-color: rgb(67, 72, 75);
+    border-color: rgb(69, 75, 78); 
+}
+.checkbox-switch input[type="checkbox"] + i::before {
+    background-image: initial;
+    background-color: rgb(24, 26, 27); 
+}
+.checkbox-switch input[type="checkbox"]:checked + i {
+    background-image: initial;
+    background-color: rgb(38, 92, 154);
+    border-color: rgb(35, 82, 138); 
+}
+.checkbox-switch label:hover input[type="checkbox"]:checked + i, label:hover .checkbox-switch input[type="checkbox"]:checked + i {
+    background-image: initial;
+    background-color: rgb(32, 76, 127);
+    border-color: rgb(39, 93, 156);
+}
+.form-control-box {
+    background-image: initial;
+    background-color: rgb(24, 26, 27);
+    border-color: rgb(56, 60, 63);
+}
+.bootstrap-select > .dropdown-toggle.bs-placeholder,
+.bootstrap-select > .dropdown-toggle.bs-placeholder:hover,
+.bootstrap-select > .dropdown-toggle.bs-placeholder:focus,
+.bootstrap-select > .dropdown-toggle.bs-placeholder:active {
+    color: rgb(211, 207, 201);
+}
+.bootstrap-select .dropdown-menu > li > a {
+    color: rgb(211, 207, 201);
+}
+.bootstrap-select .dropdown-menu > .active > a,
+.bootstrap-select .dropdown-menu > .active > a:hover,
+.bootstrap-select .dropdown-menu > .active > a:focus {
+    background-image: initial;
+    background-color: rgb(30, 32, 33);
+    color: rgb(211, 207, 201);
+}
+.badge-success {
+    background-image: initial;
+    background-color: rgb(101, 169, 26);
+}
+.badge-warning {
+    background-image: initial;
+    background-color: rgb(181, 116, 8);
+}
+.badge-danger {
+    background-image: initial;
+    background-color: rgb(166, 1, 22);
+}
+.badge-primary {
+    background-image: initial;
+    background-color: rgb(38, 92, 154);
+}
+.alert button.close {
+    outline-color: initial;
+}
+.alert-container.dark .alert-info {
+    background-color: rgb(34, 37, 38);
+    border-color: rgb(53, 58, 60);
+    color: rgb(211, 207, 201);
+}
+.alert-container.dark .alert-info hr {
+    border-top-color: rgb(56, 61, 64);
+}
+.alert-container.dark .alert-info .alert-link {
+    color: rgb(227, 224, 220);
+}
+.alert-info .alert-icon {
+    color: rgb(83, 152, 212);
+}
+.alert-info .alert-icon.text-success,
+.alert-success .alert-icon {
+    color: rgb(149, 226, 63);
+}
+.alert-warning .alert-icon {
+    color: rgb(249, 233, 47);
+}
+.alert-danger .alert-icon {
+    color: rgb(254, 59, 83);
+}
+a.navbar-xs-icon {
+    color: rgb(205, 201, 195);
+}
+a.navbar-xs-icon svg {
+    fill: rgb(205, 201, 195);
+}
+a.navbar-xs-icon:hover,
+a.navbar-xs-icon:focus {
+    color: rgb(197, 192, 185);
+}
+a.navbar-xs-icon:hover svg,
+a.navbar-xs-icon:focus svg {
+    fill: rgb(197, 192, 185);
+}
+a.navbar-xs-icon.active,
+a.navbar-xs-icon.active:hover,
+a.navbar-xs-icon.active:focus {
+    color: rgb(83, 152, 212);
+}
+a.navbar-xs-icon.active svg,
+a.navbar-xs-icon.active:hover svg,
+a.navbar-xs-icon.active:focus svg {
+    fill: rgb(83, 152, 212);
+}
+a.navbar-xs-icon span {
+    color: rgb(232, 230, 227);
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-image: initial;
+    background-color: transparent;
+}
+.navbar-header > .navbar-form {
+    border-color: initial;
+}
+.navbar-form {
+    box-shadow: none;
+}
+.navbar-form .form-control {
+    border-color: transparent;
+}
+.navbar-form > .btn:focus {
+    outline-color: initial;
+}
+.dropdown-menu.dropdown-autocomplete {
+    box-shadow: none;
+    border-bottom-color: rgb(56, 60, 63);
+}
+@media (max-width: 991px) {
+    .navbar-nav > li > a,
+    .navbar-nav.logged > li > a {
+        border-top-color: rgb(52, 56, 58);
+    }
+    .navbar-nav .open > a,
+    .navbar-nav .open > a:hover,
+    .navbar-nav .open > a:focus {
+        border-top-color: rgb(52, 56, 58);
+    }
+    .navbar-default .navbar-collapse {
+        border-top-color: initial;
+        box-shadow: rgba(0, 0, 0, 0.22) 0px 1px 4px;
+        background-image: initial;
+        background-color: rgb(24, 26, 27);
+    }
+}
+.user-link-name {
+    color: rgb(211, 207, 201);
+}
+.form-phone-verification p.phone {
+    color: rgb(157, 148, 136);
+}
+.menu-icon {
+    background-image: url("https://funpay.com/14/img/layout/sprites.min.png");
+}
+.navbar-nav > li > .dropdown-menu,
+.dropdown-menu,
+.nav-tabs .dropdown-menu {
+    border-color: initial;
+    box-shadow: rgba(0, 0, 0, 0.22) 0px 1px 4px;
+}
+.navbar-nav > li > .dropdown-menu > .active > a {
+    background-image: initial;
+    background-color: rgb(24, 26, 27);
+    color: rgb(211, 207, 201);
+}
+.navbar-nav > li > .dropdown-menu > .active > a:hover {
+    background-color: rgb(30, 32, 33);
+}
+.dropdown-menu > li + li,
+.dropdown-menu .dropdown-menu > li {
+    border-top-color: rgb(52, 56, 58);
+}
+@media (min-width: 768px) {
+    .dropdown-menu .dropdown-menu {
+        box-shadow: none;
+    }
+}
+@media (max-width: 991px) {
+    .navbar-nav .dropdown-menu > li:first-child {
+        border-top-color: rgb(52, 56, 58);
+    }
+}
+.nav-tabs > li > a,
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+    border-color: initial;
+    background-color: transparent;
+}
+.nav-tabs > li > a:hover,
+.nav-tabs > li > a:focus {
+    background-image: initial;
+    background-color: transparent;
+}
+.nav-tabs > li.active > a::before {
+    background-image: initial;
+    background-color: rgb(26, 28, 29);
+}
+.nav-tabs .open > a,
+.nav-tabs .open > a:hover,
+.nav-tabs .open > a:focus {
+    border-color: transparent;
+    background-color: transparent;
+}
+.nav-pills > li > a,
+.nav-pills > li > a:hover,
+.nav-pills > li > a:focus,
+.nav-pills .open > a,
+.nav-pills .open > a:hover,
+.nav-pills .open > a:focus {
+    background-image: initial;
+    background-color: rgb(30, 32, 33);
+}
+.list-inline > li::after {
+    color: rgb(83, 152, 212);
+}
+.list-inline > .active a,
+.list-inline > .active a:hover,
+.list-inline > .active a:focus {
+    text-decoration-color: initial;
+    color: rgb(211, 207, 201);
+}
+.table-buyers-prices {
+    color: rgb(157, 148, 136);
+}
+.popover .table-buyers-prices {
+    color: rgb(211, 207, 201);
+}
+.form-group-swap .help-block {
+    color: rgb(183, 177, 168) !important;
+}
+.btn:active,
+.btn.active,
+.btn-group.open .dropdown-toggle {
+    box-shadow: none;
+}
+.btn-default {
+    color: rgb(83, 152, 212);
+    background-color: rgb(24, 26, 27);
+    border-color: rgb(56, 60, 63);
+}
+.bg-light-style .btn-default {
+    border-color: rgb(48, 52, 54);
+}
+.btn-default:focus,
+.btn-default.focus {
+    color: rgb(83, 152, 212);
+    background-color: rgb(31, 34, 35);
+    border-color: rgb(59, 64, 66);
+}
+.btn-default:hover {
+    color: rgb(83, 152, 212);
+    background-color: rgb(31, 34, 35);
+    border-color: rgb(53, 58, 60);
+}
+.btn-default:active,
+.btn-default.active,
+.open > .btn-default.dropdown-toggle {
+    color: rgb(83, 152, 212);
+    background-color: rgb(31, 34, 35);
+    border-color: rgb(53, 58, 60);
+}
+.btn-default:active:hover,
+.btn-default:active:focus,
+.btn-default:active.focus,
+.btn-default.active:hover,
+.btn-default.active:focus,
+.btn-default.active.focus,
+.open > .btn-default.dropdown-toggle:hover,
+.open > .btn-default.dropdown-toggle:focus,
+.open > .btn-default.dropdown-toggle.focus {
+    color: rgb(83, 152, 212);
+    background-color: rgb(37, 40, 42);
+    border-color: rgb(59, 64, 66);
+}
+.btn-default:active,
+.btn-default.active,
+.open > .btn-default.dropdown-toggle {
+    background-image: none;
+}
+.btn-default.disabled:hover,
+.btn-default.disabled:focus,
+.btn-default.disabled.focus,
+.btn-default[disabled]:hover,
+.btn-default[disabled]:focus,
+.btn-default[disabled].focus,
+fieldset[disabled] .btn-default:hover,
+fieldset[disabled] .btn-default:focus,
+fieldset[disabled] .btn-default.focus {
+    background-color: rgb(24, 26, 27);
+    border-color: rgb(56, 60, 63);
+}
+.btn-default .badge {
+    color: rgb(232, 230, 227);
+    background-color: rgb(38, 92, 154);
+}
+.btn-default.dropdown-toggle,
+.btn-default.dropdown-toggle:hover,
+.btn-default.dropdown-toggle:focus,
+.btn-default.dropdown-toggle:active,
+.open > .btn-default.dropdown-toggle,
+.open > .btn-default.dropdown-toggle:hover,
+.open > .btn-default.dropdown-toggle:focus,
+.open > .btn-default.dropdown-toggle:active {
+    color: rgb(211, 207, 201);
+}
+.btn-dark {
+    color: rgb(232, 230, 227);
+    background-color: rgb(26, 28, 29);
+    border-color: rgb(129, 120, 106);
+}
+.btn-dark:focus,
+.btn-dark.focus {
+    color: rgb(232, 230, 227);
+    background-color: rgb(58, 63, 65);
+    border-color: rgb(123, 114, 101);
+}
+.btn-dark:hover {
+    color: rgb(232, 230, 227);
+    background-color: rgb(58, 63, 65);
+    border-color: rgb(116, 108, 96);
+}
+.btn-dark:active,
+.btn-dark.active,
+.open > .btn-dark.dropdown-toggle {
+    color: rgb(232, 230, 227);
+    background-color: rgb(58, 63, 65);
+    border-color: rgb(116, 108, 96);
+}
+.btn-dark:active:hover,
+.btn-dark:active:focus,
+.btn-dark:active.focus,
+.btn-dark.active:hover,
+.btn-dark.active:focus,
+.btn-dark.active.focus,
+.open > .btn-dark.dropdown-toggle:hover,
+.open > .btn-dark.dropdown-toggle:focus,
+.open > .btn-dark.dropdown-toggle.focus {
+    color: rgb(232, 230, 227);
+    background-color: rgb(77, 83, 86);
+    border-color: rgb(123, 114, 101);
+}
+.btn-dark:active,
+.btn-dark.active,
+.open > .btn-dark.dropdown-toggle {
+    background-image: none;
+}
+.btn-dark.disabled:hover,
+.btn-dark.disabled:focus,
+.btn-dark.disabled.focus,
+.btn-dark[disabled]:hover,
+.btn-dark[disabled]:focus,
+.btn-dark[disabled].focus,
+fieldset[disabled] .btn-dark:hover,
+fieldset[disabled] .btn-dark:focus,
+fieldset[disabled] .btn-dark.focus {
+    background-color: rgb(26, 28, 29);
+    border-color: rgb(129, 120, 106);
+}
+.btn-dark .badge {
+    color: rgb(211, 207, 201);
+    background-color: rgb(24, 26, 27);
+}
+.btn-gray {
+    color: rgb(83, 152, 212);
+    background-color: rgb(30, 32, 33);
+    border-color: rgb(51, 55, 57);
+}
+.btn-gray:focus,
+.btn-gray.focus {
+    color: rgb(83, 152, 212);
+    background-color: rgb(35, 38, 40);
+    border-color: rgb(61, 66, 69);
+}
+.btn-gray:hover {
+    color: rgb(83, 152, 212);
+    background-color: rgb(35, 38, 40);
+    border-color: rgb(55, 60, 62);
+}
+.btn-gray:active,
+.btn-gray.active,
+.open > .btn-gray.dropdown-toggle {
+    color: rgb(83, 152, 212);
+    background-color: rgb(35, 38, 40);
+    border-color: rgb(55, 60, 62);
+}
+.btn-gray:active:hover,
+.btn-gray:active:focus,
+.btn-gray:active.focus,
+.btn-gray.active:hover,
+.btn-gray.active:focus,
+.btn-gray.active.focus,
+.open > .btn-gray.dropdown-toggle:hover,
+.open > .btn-gray.dropdown-toggle:focus,
+.open > .btn-gray.dropdown-toggle.focus {
+    color: rgb(83, 152, 212);
+    background-color: rgb(44, 48, 50);
+    border-color: rgb(61, 66, 69);
+}
+.btn-gray:active,
+.btn-gray.active,
+.open > .btn-gray.dropdown-toggle {
+    background-image: none;
+}
+.btn-gray.disabled:hover,
+.btn-gray.disabled:focus,
+.btn-gray.disabled.focus,
+.btn-gray[disabled]:hover,
+.btn-gray[disabled]:focus,
+.btn-gray[disabled].focus,
+fieldset[disabled] .btn-gray:hover,
+fieldset[disabled] .btn-gray:focus,
+fieldset[disabled] .btn-gray.focus {
+    background-color: rgb(30, 32, 33);
+    border-color: rgb(51, 55, 57);
+}
+.btn-gray .badge {
+    color: rgb(226, 223, 219);
+    background-color: rgb(38, 92, 154);
+}
+.counter-item {
+    text-decoration-color: initial;
+    background-image: initial;
+    background-color: rgb(30, 32, 33);
+}
+.counter-item:hover,
+.counter-item:active,
+.counter-item:focus {
+    text-decoration-color: initial;
+    outline-color: initial;
+}
+.counter-item.active {
+    background-image: initial;
+    background-color: rgb(26, 28, 29);
+    color: rgb(232, 230, 227);
+}
+.bg-light-color #header,
+.bg-light-color .wrapper-footer {
+    background-color: rgb(24, 26, 27);
+}
+.cd .spacer {
+    background-image: initial;
+    background-color: rgb(27, 30, 31);
+}
+.cd svg {
+    fill: rgb(232, 230, 227);
+}
+.cd-satellite {
+    background-image: initial;
+    background-color: rgb(38, 92, 154);
+    color: rgb(232, 230, 227);
+}
+a.cd-satellite,
+a.cd-satellite:hover,
+a.cd-satellite:focus,
+a.cd-satellite:active {
+    color: rgb(232, 230, 227);
+    text-decoration-color: initial;
+    outline-color: initial;
+}
+a.cd-satellite:hover,
+a.cd-satellite:focus {
+    background-image: initial;
+    background-color: rgb(40, 96, 161);
+}
+a.cd-satellite:active {
+    background-image: initial;
+    background-color: rgb(40, 95, 160);
+}
+.social-statistic-list {
+    color: rgb(232, 230, 227);
+}
+.social-statistic {
+    background-image: initial;
+    background-color: rgb(38, 92, 154);
+}
+.social-statistic,
+.social-statistic:hover,
+.social-statistic:active,
+.social-statistic:focus {
+    color: rgb(232, 230, 227);
+    text-decoration-color: initial;
+    outline-color: initial;
+}
+.social-statistic:hover,
+.social-statistic:focus {
+    background-image: initial;
+    background-color: rgb(37, 87, 146);
+}
+.social-statistic:active {
+    background-image: initial;
+    background-color: rgb(35, 83, 139);
+}
+.social-statistic-logo span {
+    background-image: url("https://funpay.com/14/img/layout/sprites.min.png");
+}
+.social-statistic-vk {
+    background-image: initial;
+    background-color: rgb(49, 96, 149);
+}
+.social-statistic-vk:hover,
+.social-statistic-vk:focus {
+    background-image: initial;
+    background-color: rgb(47, 91, 142);
+}
+.social-statistic-vk:active {
+    background-image: initial;
+    background-color: rgb(44, 87, 136);
+}
+.social-statistic-fb {
+    background-image: initial;
+    background-color: rgb(11, 87, 187);
+}
+.social-statistic-fb:hover,
+.social-statistic-fb:focus {
+    background-image: initial;
+    background-color: rgb(10, 84, 179);
+}
+.social-statistic-fb:active {
+    background-image: initial;
+    background-color: rgb(9, 79, 170);
+}
+.social-statistic-goha {
+    background-image: initial;
+    background-color: rgb(26, 28, 29);
+}
+.social-statistic-goha:hover,
+.social-statistic-goha:focus {
+    background-image: initial;
+    background-color: rgb(39, 42, 44);
+}
+.social-statistic-goha:active {
+    background-image: initial;
+    background-color: rgb(45, 49, 50);
+}
+.social-statistic-wot {
+    background-image: initial;
+    background-color: rgb(3, 37, 48);
+}
+.social-statistic-wot:hover,
+.social-statistic-wot:focus {
+    background-image: initial;
+    background-color: rgb(4, 46, 59);
+}
+.social-statistic-wot:active {
+    background-image: initial;
+    background-color: rgb(5, 54, 71);
+}
+.social-statistic-trustpilot {
+    background-image: initial;
+    background-color: rgb(0, 0, 40);
+}
+.social-statistic-trustpilot:hover,
+.social-statistic-trustpilot:focus {
+    background-image: initial;
+    background-color: rgb(0, 0, 56);
+}
+.social-statistic-trustpilot:active {
+    background-image: initial;
+    background-color: rgb(0, 0, 69);
+}
+.content-with-cd-wide {
+    background-image: initial;
+    background-color: rgb(24, 26, 27);
+}
+.nav-abc ul {
+    list-style-image: initial;
+}
+.nav-abc ul .active a,
+.nav-abc ul .active a:hover,
+.nav-abc ul .active a:focus {
+    text-decoration-color: initial;
+    color: rgb(211, 207, 201);
+}
+.nav-abc .nav > li > a,
+.nav-abc .nav > li > a:hover,
+.nav-abc .nav > li > a:focus {
+    background-image: initial;
+    background-color: transparent;
+}
+.game-title a {
+    color: rgb(211, 207, 201);
+    text-decoration-color: initial;
+}
+.game-title a:hover,
+.game-title a:focus {
+    text-decoration-color: initial;
+}
+.promo-game-list-title {
+    color: rgb(157, 148, 136);
+}
+.tc:not(.tc-selling):not(.tc-finance) .tc-item > div {
+    border-top-color: rgb(54, 58, 61);
+}
+.tc:not(.tc-selling):not(.tc-finance) .tc-header > div {
+    border-bottom-color: initial;
+}
+a.tc-item {
+    color: rgb(211, 207, 201);
+    text-decoration-color: initial;
+}
+a.tc-item .pseudo-a,
+a.tc-item .pseudo-a:hover,
+a.tc-item .pseudo-a:focus,
+a.tc-item .pseudo-a:active {
+    outline-color: initial;
+}
+a.tc-item .pseudo-a:hover {
+    text-decoration-color: initial;
+}
+.tc-header > div {
+    border-bottom-color: rgb(54, 58, 61);
+}
+.media-user.style-circle .avatar-photo::after {
+    background-image: initial;
+    background-color: rgb(74, 80, 84);
+    border-color: rgb(48, 52, 54);
+}
+.media-user.style-circle.online .avatar-photo::after {
+    background-image: initial;
+    background-color: rgb(101, 169, 26);
+}
+.media-user.style-circle.offline .media-user-name,
+.media-user.style-circle.offline .media-user-name .pseudo-a {
+    color: rgb(176, 169, 159);
+}
+.media-user.style-circle.offline .media-user-reviews {
+    color: rgb(157, 148, 136);
+}
+.tc.table-hover .tc-item:hover {
+    background-color: rgb(27, 30, 31);
+}
+.tc-desc-text a {
+    color: rgb(211, 207, 201);
+}
+.showcase-has-actions .showcase-actions span {
+    color: rgb(157, 148, 136);
+}
+.showcase-has-actions .showcase-actions span:hover {
+    color: rgb(232, 230, 227);
+}
+a.image-list-mini {
+    text-decoration-color: initial;
+}
+@media (max-width: 767px) {
+    .tc:not(.tc-selling):not(.tc-finance) .tc-item > div {
+        border-top-color: rgb(54, 58, 61);
+    }
+    .tc:not(.tc-selling) .tc-header > div {
+        border-bottom-color: initial;
+    }
+    .tc-visible-inside,
+    .tc-server-inside,
+    .tc-side-inside {
+        color: rgb(157, 148, 136);
+    }
+    .tc .media-user-name .pseudo-a {
+        color: rgb(83, 152, 212);
+    }
+}
+@media (max-width: 480px) {
+    .tc-short .tc-item {
+        border-top-color: rgb(54, 58, 61);
+    }
+    .tc.tc-short .tc-item > div {
+        border-color: initial !important;
+    }
+}
+.game-about {
+    border-top-color: rgb(56, 60, 63);
+}
+.chat-box {
+    background-image: initial;
+    background-color: rgb(27, 30, 31);
+}
+.media-user-name a {
+    color: rgb(211, 207, 201);
+}
+.media-user-info {
+    color: rgb(176, 169, 159);
+}
+.online .media-user-status {
+    color: rgb(149, 226, 63);
+}
+.offline .media-user-status {
+    color: rgb(176, 169, 159);
+}
+.banned .media-user-status {
+    color: rgb(246, 52, 52);
+}
+.chat {
+    background-image: initial;
+    background-color: rgb(24, 26, 27);
+}
+.chat-img {
+    background-color: rgb(27, 30, 31);
+}
+.chat-not-selected .chat-message-container {
+    border-bottom-color: rgb(54, 58, 61);
+}
+@media (min-width: 768px) {
+    .chat-not-selected .chat-message-container {
+        border-top-color: rgb(54, 58, 61);
+    }
+}
+.chat-header {
+    border-color: rgb(54, 58, 61);
+}
+.chat-header.bg-light-style {
+    border-color: rgb(50, 54, 56);
+}
+.chat-panel-mobile {
+    border-bottom-color: rgb(54, 58, 61);
+}
+@media (min-width: 768px) {
+    .chat-panel-mobile {
+        border-left-color: rgb(54, 58, 61);
+        border-right-color: rgb(54, 58, 61);
+    }
+}
+.chat-message-container {
+    border-left-color: rgb(54, 58, 61);
+    border-right-color: rgb(54, 58, 61);
+}
+.chat-message-list-date {
+    color: rgb(176, 169, 159);
+}
+.chat-message-list-date::before {
+    background-image: initial;
+    background-color: rgb(33, 36, 37);
+}
+.chat-message-list-date .inside {
+    background-image: initial;
+    background-color: rgb(24, 26, 27);
+}
+.chat-message.blocked .media-user-name a {
+    color: rgb(176, 169, 159);
+}
+.chat-message.blocked .message-text {
+    color: rgb(176, 169, 159);
+}
+.chat-message-date {
+    color: rgb(176, 169, 159);
+}
+.chat-form {
+    border-color: rgb(54, 58, 61);
+}
+.chat-form-input textarea[readonly],
+.chat-form-input textarea[disabled] {
+    background-image: none;
+    background-color: initial;
+    color: rgb(176, 169, 159);
+}
+.chat-form-input textarea[readonly]::-webkit-input-placeholder,
+.chat-form-input textarea[disabled]::-webkit-input-placeholder {
+    color: rgb(179, 172, 162);
+}
+.chat-form-input .form-control {
+    border-color: transparent;
+    outline-color: initial;
+}
+.chat-form-input .hiddendiv {
+    border-color: initial;
+}
+.chat-not-selected-info {
+    color: rgb(176, 169, 159);
+}
+.chat-contacts,
+.chat-detail {
+    background-image: initial;
+    background-color: rgb(24, 26, 27);
+    border-color: rgb(54, 58, 61);
+}
+.chat-contacts {
+    border-right-color: initial;
+}
+.chat-detail {
+    border-left-color: initial;
+}
+.chat-full-header {
+    border-bottom-color: rgb(54, 58, 61);
+}
+.custom-scroll::-webkit-scrollbar,
+.chat-message-list::-webkit-scrollbar,
+.chat-empty::-webkit-scrollbar,
+.chat-form-input .form-control::-webkit-scrollbar,
+.chat-form-input .hiddendiv::-webkit-scrollbar {
+    background-image: initial;
+    background-color: rgb(24, 26, 27);
+    border-color: initial;
+}
+.custom-scroll::-webkit-scrollbar-thumb,
+.chat-message-list::-webkit-scrollbar-thumb,
+.chat-empty::-webkit-scrollbar-thumb,
+.chat-form-input .form-control::-webkit-scrollbar-thumb,
+.chat-form-input .hiddendiv::-webkit-scrollbar-thumb {
+    background-image: initial;
+    background-color: rgb(43, 47, 49);
+    border-color: initial;
+}
+.contact-item {
+    border-bottom-color: rgb(54, 58, 61);
+}
+.contact-item:hover {
+    background-image: initial;
+    background-color: rgb(27, 30, 31);
+}
+.contact-item.active,
+.contact-item.active:hover,
+.contact-item.active:focus {
+    background-image: initial;
+    background-color: rgb(38, 92, 154);
+}
+.contact-item.active,
+.contact-item.active > div {
+    color: rgb(232, 230, 227);
+}
+.contact-item.unread {
+    background-image: initial;
+    background-color: rgb(181, 116, 8);
+}
+.contact-item.unread:hover,
+.contact-item.unread:focus {
+    background-image: initial;
+    background-color: rgb(193, 124, 9);
+}
+.contact-item.unread,
+.contact-item.unread > div {
+    color: rgb(232, 230, 227);
+}
+a.contact-item {
+    text-decoration-color: initial;
+    color: unset;
+}
+.contact-item-message {
+    color: rgb(193, 188, 180);
+}
+.contact-item-time {
+    color: rgb(185, 179, 170);
+}
+a.chat-clone {
+    text-decoration-color: initial;
+    color: unset;
+}
+@media (max-width: 767px) {
+    .chat-contacts {
+        border-color: initial;
+    }
+    .chat-full .chat-header,
+    .chat-full .chat-message-container,
+    .chat-full .chat-form {
+        border-left-color: initial;
+        border-right-color: initial;
+    }
+    .chat-full .chat-form {
+        border-bottom-color: initial;
+    }
+    .chat-full .chat-header {
+        border-top-color: initial;
+    }
+}
+.rating-mini {
+    background-image: url("https://funpay.com/img/layout/star.svg");
+    background-color: initial;
+}
+.rating-stars.rating-1,
+.rating-stars.rating-2,
+.rating-stars.rating-3 {
+    color: rgb(254, 59, 83);
+}
+.rating-stars.rating-4 {
+    color: rgb(246, 173, 52);
+}
+.rating-stars.rating-5 {
+    color: rgb(249, 233, 47);
+}
+.rating-mini-count {
+    color: rgb(157, 148, 136);
+}
+.rating-progress {
+    background-image: initial;
+    background-color: rgb(44, 47, 49);
+}
+.rating-progress > div {
+    background-image: initial;
+    background-color: rgb(51, 55, 58);
+}
+.rating {
+    background-image: url("https://funpay.com/img/layout/star-o.svg");
+    background-color: initial;
+}
+.rating > div,
+.rating > span {
+    background-image: url("https://funpay.com/img/layout/star.svg");
+    background-color: initial;
+}
+.rating1,
+.rating2,
+.rating3,
+.rating4,
+.rating5 {
+    background-image: url("https://funpay.com/img/layout/star.svg");
+    background-color: initial;
+}
+.review-container {
+    border-top-color: rgb(56, 60, 63);
+}
+.review-item-detail {
+    color: rgb(176, 169, 159);
+}
+.review-item-answer {
+    background-image: initial;
+    background-color: rgb(30, 32, 33);
+}
+.bg-light-style .review-item-answer {
+    background-image: initial;
+    background-color: rgb(31, 34, 35);
+}
+.review-rating {
+    color: rgb(249, 233, 47);
+}
+.review-rating a {
+    color: inherit;
+    text-decoration-color: initial;
+    outline-color: initial;
+}
+.reviews-filter .dropdown-menu .review-rating > .rating {
+    background-image: none;
+    background-color: initial;
+}
+.with-corner-cd .navbar-default,
+.with-corner-cd .navbar-form .form-control {
+    background-image: initial;
+    background-color: transparent;
+}
+.with-corner-cd .back-link a {
+    color: rgb(232, 230, 227);
+}
+.corner-cd::before {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5) 85%,
+    rgba(0, 0, 0, 0.8) 100%);
+    background-color: initial;
+}
+@media (max-width: 767px) {
+    .with-corner-cd .navbar-default {
+        background-image: initial;
+        background-color: rgb(24, 26, 27);
+    }
+}
+.seller-promo-note {
+    color: rgb(176, 169, 159);
+}
+.payment-card {
+    background-image: initial;
+    background-color: rgb(24, 26, 27);
+}
+.profile-cover-img {
+    background-image: url("https://funpay.com/img/layout/profile-header.jpg");
+    background-color: initial;
+}
+.avatar-photo {
+    background-image: url("https://funpay.com/img/layout/avatar.png");
+}
+.offer {
+    background-image: initial;
+    background-color: rgb(24, 26, 27);
+}
+.offer-tc-container {
+    border-top-color: rgb(54, 58, 61);
+}
+.setting-group + .setting-group {
+    border-top-color: rgb(54, 58, 61);
+}
+.setting-item .btn-gray,
+.setting-item .btn-gray:hover,
+.setting-item .btn-gray:focus,
+.setting-item .btn-gray:active {
+    color: rgb(211, 207, 201);
+}
+.setting-buttons {
+    list-style-image: initial;
+}
+.setting-photo {
+    color: rgb(232, 230, 227);
+}
+.setting-photo .avatar-photo {
+    background-color: rgb(38, 92, 154);
+    background-image: none;
+}
+.setting-photo .avatar-photo.avatar-photo-telegram {
+    background-image: url("https://funpay.com/img/layout/logo-telegram.svg");
+}
+.social-login-item {
+    background-image: initial;
+    background-color: rgb(34, 36, 38);
+    border-color: initial;
+    color: rgb(232, 230, 227);
+}
+.social-login-item.active,
+.social-login-item:hover,
+.social-login-item:focus {
+    color: rgb(232, 230, 227);
+}
+.social-vk {
+    background-image: initial;
+    background-color: rgb(49, 96, 149);
+}
+.balances-header .balances-list .balances-delimiter {
+    color: rgb(157, 148, 136);
+}
+.tc-finance {
+    border-bottom-color: rgb(54, 58, 61);
+}
+.tc-finance .tc-header > div,
+.tc-finance .tc-item > div {
+    border-top-color: rgb(54, 58, 61);
+}
+.tc-finance .tc-header > div {
+    border-bottom-color: initial;
+}
+.tc-finance .tc-item > div.tc-go {
+    color: rgb(83, 152, 212);
+}
+.tc-finance .tc-date-left,
+.tc-finance .tc-payment-number {
+    color: rgb(176, 169, 159);
+}
+.tc-finance .tc-title a {
+    color: rgb(211, 207, 201);
+}
+@media (max-width: 767px) {
+    .tc-finance {
+        border-top-color: rgb(54, 58, 61); 
+    }
+    .tc-finance .tc-header > div, .tc-finance .tc-header > [class^="col-"], .tc-finance .tc-header > [class*=" col-"] {
+        border-top-color: initial;
+    }
+    .tc-finance .tc-item {
+        border-top-color: rgb(54, 58, 61);
+    }
+    .tc-finance .tc-item > div {
+        border-top-color: initial;
+    }
+}
+.help-tooltip a,
+.help-tooltip i {
+    text-decoration-color: initial;
+}
+.popover {
+    box-shadow: none;
+}
+.popover h5,
+.popover .h5 {
+    color: rgb(211, 207, 201);
+}
+.tc-selling .help-block.complete {
+    color: rgb(211, 207, 201);
+}
+@media (max-width: 767px) {
+    .fixed-btn {
+        background-image: initial;
+        background-color: rgb(24, 26, 27);
+        border-top-color: rgb(56, 60, 63);
+    }
+}
+#footer {
+    border-top-color: rgb(56, 60, 63);
+}
+.modal-dialog .close {
+    outline-color: initial;
+    color: rgb(232, 230, 227);
+}
+.modal-dialog .close:hover,
+.modal-dialog .close:focus {
+    color: rgb(216, 213, 207);
+}
+.modal-content {
+    box-shadow: none;
+}
+#db-log {
+    border-color: rgb(58, 62, 65);
+    background-color: rgb(44, 37, 25);
+}
+table.values {
+    border-color: initial;
+}
+table.values > tbody > tr > th {
+    color: rgb(157, 148, 136);
+}
+ul.user-gates {
+    list-style-image: initial;
+}
+ul.user-gates li .pic img {
+    background-image: initial;
+    background-color: rgb(34, 36, 38);
+}
+.navbar-nav .vk:hover i,
+.navbar-nav .vk:focus i {
+    color: rgb(87, 148, 200);
+}
+.guess-box .online {
+    color: rgb(176, 169, 159);
+}
+.guess-box .tab-game ul {
+    list-style-image: initial;
+}
+.input-group-btn .btn {
+    border-color: rgb(56, 60, 63) !important;
+}
+.masked-links a {
+    color: inherit;
+}
+.ajax-alert-danger {
+    background-color: rgb(61, 12, 18);
+    color: rgb(246, 52, 52);
+}
+.ajax-alert-info {
+    background-color: rgb(31, 33, 35);
+    color: rgb(129, 175, 214);
+}
+.callout {
+    border-color: rgb(56, 60, 63);
+}
+.callout.callout-info {
+    border-left-color: rgb(35, 82, 138);
+}
+.callout.callout-warning {
+    border-left-color: rgb(164, 105, 7);
+}
+.callout.callout-danger {
+    border-left-color: rgb(191, 1, 25);
+}
+.cd-click {
+    background-image: none;
+    background-color: initial;
+}
+.chat-btn-image {
+    background-image: none;
+    background-color: initial;
+    border-color: initial;
+    color: rgb(176, 169, 159);
+}
+.chat-btn-image:hover,
+.chat-btn-image:focus {
+    background-image: none;
+    background-color: initial;
+}
+.drop-area {
+    color: rgb(178, 172, 162);
+    background-image: initial;
+    background-color: rgb(34, 36, 38);
+    border-color: rgb(62, 68, 70);
+}
+.drop-area.hover {
+    background-image: initial;
+    background-color: rgb(43, 47, 49);
+    border-color: rgb(72, 78, 81);
+}
+.drop-area.error {
+    background-image: initial;
+    background-color: rgb(102, 0, 0);
+    border-color: rgb(179, 0, 0);
+}
+.payment-logo {
+    background-image: url("https://funpay.com/14/img/layout/sprites.min.png");
+    background-color: initial;
+}
+.modal-upload-preview img.preview {
+    background-color: rgb(34, 36, 38);
+}
+.withdraw-box .slave {
+    background-color: rgb(30, 32, 33);
+}
+.withdraw-box .slave:hover {
+    background-color: rgb(24, 26, 27);
+}
+.transaction-status-complete .transaction-status {
+    color: rgb(149, 226, 63);
+}
+.transaction-status-waiting .transaction-status {
+    color: rgb(246, 173, 52);
+}
+.transaction-status-cancel .transaction-status {
+    color: rgb(246, 52, 52);
+}
+.table > thead > tr > td.transaction-status-waiting,
+.table > thead > tr > th.transaction-status-waiting,
+.table > thead > tr.transaction-status-waiting > td,
+.table > thead > tr.transaction-status-waiting > th,
+.table > tbody > tr > td.transaction-status-waiting,
+.table > tbody > tr > th.transaction-status-waiting,
+.table > tbody > tr.transaction-status-waiting > td,
+.table > tbody > tr.transaction-status-waiting > th,
+.table > tfoot > tr > td.transaction-status-waiting,
+.table > tfoot > tr > th.transaction-status-waiting,
+.table > tfoot > tr.transaction-status-waiting > td,
+.table > tfoot > tr.transaction-status-waiting > th {
+    background-color: rgb(51, 47, 2);
+}
+.table-hover > tbody > tr > td.transaction-status-waiting:hover,
+.table-hover > tbody > tr > th.transaction-status-waiting:hover,
+.table-hover > tbody > tr.transaction-status-waiting:hover > td,
+.table-hover > tbody > tr:hover > .transaction-status-waiting,
+.table-hover > tbody > tr.transaction-status-waiting:hover > th {
+    background-color: rgb(62, 58, 2);
+}
+.tc.table-hover .tc-item.transaction-status-waiting {
+    background-color: rgb(51, 47, 2);
+}
+.tc.table-hover .tc-item.transaction-status-waiting:hover {
+    background-color: rgb(62, 58, 2);
+}
+form div.captcha span {
+    color: rgb(176, 169, 159);
+}
+form div.captcha span:hover {
+    color: rgb(211, 207, 201);
+}
+.table-sortable .sort.loading .fa,
+.tc-sortable .sort.loading .fa {
+    color: rgb(176, 169, 159);
+}
+.search-fade {
+    background-image: initial;
+    background-color: rgb(0, 0, 0);
+}
+.order-log-table .ip-info .pseudo-a {
+    color: rgb(176, 169, 159);
+    text-decoration-color: initial;
+}
+.order-log-table .ip-info .pseudo-a:hover,
+.order-log-table .ip-info .pseudo-a:focus {
+    color: rgb(176, 169, 159);
+    text-decoration-color: initial;
+}
+.account-blocked-comment {
+    background-image: initial;
+    background-color: rgb(30, 32, 33);
+}
+.lot-fields-multilingual {
+    border-bottom-color: rgb(59, 64, 66);
+}
+.note-choose-server {
+    background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMjE0IiBoZWlnaHQ9IjE3OCI+PGRlZnM+PGZpbHRlciBpZD0iZGFya3JlYWRlci1pbWFnZS1maWx0ZXIiPjxmZUNvbG9yTWF0cml4IHR5cGU9Im1hdHJpeCIgdmFsdWVzPSIwLjI0OSAtMC42MTQgLTAuNjcyIDAuMDAwIDEuMDM1IC0wLjY0NiAwLjI4OCAtMC42NjQgMC4wMDAgMS4wMjAgLTAuNjM2IC0wLjYwOSAwLjI1MCAwLjAwMCAwLjk5NCAwLjAwMCAwLjAwMCAwLjAwMCAxLjAwMCAwLjAwMCIgLz48L2ZpbHRlcj48L2RlZnM+PGltYWdlIHdpZHRoPSIyMTQiIGhlaWdodD0iMTc4IiBmaWx0ZXI9InVybCgjZGFya3JlYWRlci1pbWFnZS1maWx0ZXIpIiB4bGluazpocmVmPSJkYXRhOmltYWdlL3BuZztiYXNlNjQsaVZCT1J3MEtHZ29BQUFBTlNVaEVVZ0FBQU5ZQUFBQ3lDQU1BQUFBSldNRlFBQUFEQUZCTVZFVk1hWEVuSnljbUppWW5KeWNtSmlZbkp5Y25KeWNuSnljbkp5Y25KeWNuSnljQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQURTV0VWVkFBQUFDblJTVGxNQTdnMGtPZFo0VjVlNVQ2WXhZQUFBQUFsd1NGbHpBQUFvbWdBQUtKb0JGem9oc2dBQUNVUkpSRUZVZUp6dG5kbWFzNndXaEY4bXAvdS8xaGdIWUI4Z2lFbTYrLys2eFpqOVdFZmRta1RLTllCU0xBUWZDaWtBaEJKaW5wZERXbHZuQVF2aWZRMzdFeXI5M2RtYk9xb2RPOE9aNzg3NmIwbWZHQko2MEtDdHNPbWdtbWRhWVA1VUovd1NIV0FIK2U1bTdBd0J1SUZQZGNJdjBBcndkLzVmYUNudkFDb0IwOFRuSnZnVldnOHRNSTlRSytnOWZMaTFsSnBhb0FXUW9CS3J6N1dXclBKczF6ZURrMDFpOVptMHBCbmIrUGNrWEJnOHlXYUpLL2hFV3FxS2JlN043TkxoRGF0UG82WHRZcWErR2pZblpBTytULzkrRXEzRXlZM3U0WlJzd04zWC96K0dWdVQwYUNZZ3NCcm43TUJuMEZJeUROZ25QNzg2WFN1NGJ3ejRDYlNha01wNzlaSVR0Q0pMRmdHbjc0N3I4RVRZVndOZnNCSmk2NEJ3ZG12Sk9yUnZIci81VU1mdDZkaVphZWtLZ01uWkh6NzRqUFBTV2lMS3ZraDhQK09rdEtReThEdERBU2VscFdyZ2g0ajZIaWVrdGVTK3ArejJMemdkcmZBQ3NCZVB3Nk4vdzhsb0JWTFptUFdYT0JXdFZzQjJ5UHBibkloV0lQV0hQSkhoTkxSQ043VVBxZFBRQ2pHMUY2bVQwQW9wZlQ5U3A2QVZobjU3SklvVmI2Y1ZSaFIvVCtsYnZKbFdHUHROOW0rZDd6UGVTNnNWUUM5L09aNzlCdStrRlRMRm44WitYK0Y5RC8zU0svYk9GQWx2czFZcktCRlVDOTVFSy9qZnNIOVFMWGlMRXdiLzI3UDdmY1E3ck5WSWVIcXp0eStPcHlVYktKVC9WaHhPcXhVVXkzOHJEcWFsYXY3K1JQOGZjR3pLQ0tieXZ2aUZqclJXaUtwN2NWTnhLSzFHY2tCVUJSem1oTkpMU25iQVd4eGxMVjJ4LzFQVjF6aUlsakVjWnlvT29oWFNldm44dCtLSTJLbzA0STVrZFFRdG96blVBZUVBSjVRTmg0d3J0aWh0clpBQkR4aFhiRkhZV28za3QvT2tmMEpaYTVranUrQWNSV2tKYzNCZVR5aElTemJBOUJaV0JXbXBHbkJGSCsyL1JyR1VvV3Jla2l3Q1N0SFNGZTlKRmdHRmFOV0tneDRZWDZQTVlvenF6YXpLV0t2UzcwcnNFU1Zvdlo5VkNWb25ZRldBMXJyUTQ0M1lQV1hvTTdEYW5aYXFlUGZNTGV4T1M5YThON1BIZHV6N2N3Mm5ZTFV6TFFFTUoyQzE3d2kra1dEZk5nN01zYWUxdEFUM3JqSDdGbnRhcXpwRGFnL1kwVm9HT0FtckhXbHBBd1huN3Y4Tis5R3k0TXJPYy84RDlvdXR0ckFtNFord1gyRUorYTdYTVJjdVhMaHc0Y0tGQ3hjdVhMaHc0Y0tGQ3hjdVhMaHc0Y0tGQ3hjdWZEcFdlWkwwTFErMURTdDlCa1hNYjVCb2hmV1lrSzkwN2c1Y0g3Y3Y0cFI0V0xnRFFKVVZ4ai9OSFBjL0lzNGR0OUJQVEpOWGtQelFJRCtVMTJJdHpTSVZtVzhqdE1sZVo1R1AvQ3NXYTNuRHNGQndWcVBDL2dVbUNMTXExeGwrbXp0VUxXcDkrUHF0UlpmUlFsS1d1YUZHajRBQ0I4YWd3Y3dQTGFzbThwTFJFY29JbTFlUzlqVVNVVzlFaHJJVzRNZVNVclpBS3hDSXNEYXBOWHhLa0cyK1hrU0pDZzM2WWMyM0ZEV2c5U3JvU3VrMXV5bkdBSWk2NUFxVVJDdlBEVU9YL215QWVVUlh1VENsamQyQ0ZGbHpSU3BtM2taZURUQllWRTJiaXNTS0ZMaEtGUFBOMEZpcHRndXRuUFdBMUNEcEp4dDJRMGtpR2EwQkJqY2FzcGdMckhwdmhjQXNwWnVzNGViQk81MFc2Sm9hN0gyYS9QYmJPeU5rd3BudEJaS0VVNytTU1Z1QW01MzlIRm9aUHRrQ2pINmU3elpsb21nLzYyUG9hZ1AzQVpqOUVMUjZSYUEzbDk5Q0FQam5HOW9DZDRCUnl1U2JBdUxLcHFFRFpRRzhJRGhhR3F4WW1JVUN0RFBaNGIzeG8wSnREV3VaRVZ5UzNYME5RZ1BFS3JoT29nUEJoblpiZHFhTlBvd0NpZ1hYZDNwQ0JjazUrMnljeGFxSDdIT04yeTNteGNUZmpVRFZwWHk0aGJzVkcwai9aSzBYRnhiWjBkZGZsNmtYbkYwRHlDNlczMUxBSUpSSHpFVVYyS0ZkWGxCbGd0UTZ1SjVuTmN1UHp1b2tUYlNXbGFtZmNyZGFBY2FrWWxXOVAyQUFIVHhyQ0dydkJVYXA1Rm5STG5wMVFwc0ZuRWtkN1FoU3JrZFhXd3kzdXdkMHMzejNkWHJhR2FFbGJvSm1NVWpkbWMyNUFMdjV0ODFHeUF0eE4wRVRzdjFqaW5QOXpVZlMvZWJKMVpSYVpMT1l4UmxRaGtyYlRoS1hDd3UxaW9xMVhBY2lRcUtsQldvRGE0eG9rTVpRVnlwMkMwMFZ0L3lhbFFnV1ZCcGpsaWVmdWxLbVVCbU5OQXp5bVhNc0MydTdiQm1NcmpLRjhacldjejEvOWhQTFdISDlnVnJGUmNqTHBuU1RzZ1o0VVhoL0Y4UWc4aWt5ZWg4ZlVYSmh1NWJaSStVMFJ6L05WeWw0NUJDT3p6SDJGRm9namVza1N3K085UXBBQ1FWd0w5UnhiWnhiQ1Z5VzBidnNabFo2TStBT085cThxRUt2Qkg0OW1KdDFyUVJTeHgxK3lwWHkreTVtdTl3WURiOG9QSlg4MGo4c2YxTGFGKzI1dnFOVlRYK3Z0YUlNenJrUGZTMTM0Y0tGQ3hjdVhMaHc0Y0tGQ3hjdVhMaHc0UThJcno5cjE1bXZ4Uk5TN3ZDU1VodFJiZ2I4Q1lMMC92aTFiaXUrNnZ1K2tMRjBLczNHeXVjUExwdDJQbFM1cjRVdkpXRVFVU2NCTHd2a05Pczh5ZnE2WE5zVytucHRZZ2ZRQzllS0cxMCtxNnB0TmFSZE80RzhjR2IzK29xN1FOQ0s4TmE0Vmkvc3BTdVl2QmRhWmcxSzl5RmFNR3YyNEp1c3JhcUcyMUt6ZFVZUExldHN4YktaNTRBdVlES05XSzQweUFhaEhsNGdWNHU4Y01hWWVHclZpN1RQYjlFdHJOSVNXWU1IdCt3eE0zTnZRQzIwRkZnRk5TV2dJYzY4dVZuellvZXZwUlZwR3FnVkM5VkdnbmJ6OGlQajNBcDZBWDFMdkRrK2VGbWJwQ3J1M21EVzJpNURLTlM5UHlzMHM0NTNmTlQ1TlNPYWh6MjhvM1c1WXd4NlhobzIwNGUvS3VMTnFUUjRVT0FGeHVLRmtkdUp5bmx1UkpFNlhwcHhUTHNMUDUrK045QlNaUW1zQWhwNnJUek9MRE9VTXBkdkRCM0dPb0syYUNUY2gzYWRWRi9TdkE3ZkxiVC9oMlpWWnIyUTZyaGJwUUhacFNDYU5DenoycWx1cE1pbndQRWl4RThEMHh3K3B2bzRVWmsyRXRNdnhSRjdRWUlRZkNQVEdXOFdRSXNsMDI4bTZxZGxCL1BOTjRaUU1OMncybC81MnpqN3lkdjc1TlpQRmRReGFFUUxkdUMyN1Y0MnpaUytwVjJKM3dBbFdOczFiK3pzdk1CVDZlaVpWakdHeitaZVhsYkhvSFFEd1NCNDh6Sytsb2xsNDZNUVJzM2c4OGs0WVRiZm13MUdhcGdEYldjdzRpbkRmbld0ZlNCRkh1NVBaN3RsOW5ld01mUWN5Q3FlZnVXWXdBd0twaGlPRHJTSW50QjJIZVdoTjRxWHh4QXpySXFmeGVXc0YraEpXcUFWWCtnUFJnMlpNZTdHME5KQnIzTXBTc21WQTVvME5xMG1xTGNKZCtpUWVrWktxNUtLcGpmbXg4Q1k5U1oxVHlwOE4zd3REdVIxUVNmVVh0RDB0Vk1DTlBqUXY2NE5NbFNMeTZWaHhpU1NydXVyWERaS3NabmF2NitpQmNha1lDbElTL0RvNnR0eWZFbFh2SkZCTDQ4eThWaWwvOU5hRkNsSm9nMVZGOTVnTVdrbit1clZic3JWMURLcGNmZXVzeXRhMjE4QWFDWDhiTVBUM2xIYkkyaFY4a0wvQXlGVFBvYTdoZUIzQUFBQUFFbEZUa1N1UW1DQyIgLz48L3N2Zz4=");
+}
+.payment-hold-box blockquote em {
+    color: rgb(176, 169, 159);
+}
+.ip-info .pseudo-a {
+    color: rgb(83, 152, 212);
+    text-decoration-color: initial;
+}
+.ip-info .pseudo-a:hover,
+.ip-info .pseudo-a:focus {
+    color: rgb(119, 174, 221);
+    text-decoration-color: initial;
+}
+.relation-cases {
+    color: rgb(83, 152, 212);
+    text-decoration-color: initial;
+}
+.relation-cases:hover,
+.relation-cases:focus {
+    color: rgb(119, 174, 221);
+    text-decoration-color: initial;
+}
+.banner-cookie-consent {
+    background-color: rgb(40, 43, 45);
+}
+
+/* Override Style */
+.vimvixen-hint {
+    background-color: #7b5300 !important;
+    border-color: #d8b013 !important;
+    color: #f3e8c8 !important;
+}
+::placeholder {
+    opacity: 0.5 !important;
+}
+#edge-translate-panel-body,
+.MuiTypography-body1 {
+    color: var(--darkreader-neutral-text) !important;
+}
+gr-main-header {
+    background-color: #0f3a48 !important;
+}
+.tou-z65h9k,
+.tou-mignzq,
+.tou-1b6i2ox,
+.tou-lnqlqk {
+    background-color: var(--darkreader-neutral-background) !important;
+}
+.tou-75mvi {
+    background-color: #032029 !important;
+}
+.tou-ta9e87,
+.tou-1w3fhi0,
+.tou-1b8t2us,
+.tou-py7lfi,
+.tou-1lpmd9d,
+.tou-1frrtv8,
+.tou-17ezmgn {
+    background-color: #0a0a0a !important;
+}
+.tou-uknfeu {
+    background-color: #231603 !important;
+}
+.tou-6i3zyv {
+    background-color: #19576c !important;
+}
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+.logo-color {
+	filter: brightness(0) invert(1);
+}
+
+.form-control, .theme-select {
+    color: rgb(211, 207, 201);
+    background-color: rgb(24, 26, 27);
+    background-image: none;
+    border-color: rgb(56, 60, 63);
+    box-shadow: rgb(0 0 0 / 7%) 0px 1px 1px inset;
+}
+.counter-list .counter-item {
+    text-decoration-color: initial;
+    background-image: initial;
+    background-color: rgb(30, 32, 33);
+}
+.counter-list .counter-item.active {
+    background-image: initial;
+    background-color: rgb(26, 28, 29);
+    color: rgb(232, 230, 227);
+}
+.counter-list .counter-item:hover,
+.counter-list .counter-item:active,
+.counter-list .counter-item:focus {
+    text-decoration-color: initial;
+    outline-color: initial;
+}
+
+.chat-promo {
+    border-color: rgb(50, 54, 56);
+    background-image: initial;
+    background-color: rgb(27, 30, 31);
+}
+
+.accounts {
+    background: rgb(24, 26, 27);
+    border: 2px solid rgb(42, 45, 46, 0.883);
+}
+
+.sale-panel {
+    background-color: #1b1e1f !important;
+    border-radius: 0;
+    border-bottom: 1px solid #383c3f !important;
+    border-top: 1px solid #383c3f !important;
+}
+
+.settings-block {
+    background-color: #191b1c !important;
+}
+
+.background-info {
+    background-color: rgb(22, 24, 25) !important;
+}
+
+.actions {
+    background-color: #202324 !important;
+    border-top: #0a0a0a !important;
+}

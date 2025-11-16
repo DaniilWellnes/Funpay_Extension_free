@@ -1,0 +1,58 @@
+{
+   "action": {
+      "default_title": "Открыть страницу"
+   },
+   "background": {
+      "service_worker": "background/service_worker.js"
+   },
+   "content_scripts": [ {
+      "css": [ "content/style.css" ],
+      "js": [ "content/scripts/jquery.js", "content/scripts/funpay.js", "content/scripts/custom.js" ],
+      "matches": [ "https://funpay.com/**" ],
+      "run_at": "document_start"
+   }, {
+      "css": [ "content/main/main.css" ],
+      "js": [ "content/main/index.js" ],
+      "matches": [ "https://funpay.com/*extension" ],
+      "run_at": "document_start"
+   }, {
+      "js": [ "content/scripts/page/fonts.js", "content/scripts/page/offerEdit.js" ],
+      "matches": [ "https://funpay.com/*lots/offerEdit?node=*" ]
+   }, {
+      "js": [ "content/scripts/page/chat.js" ],
+      "matches": [ "https://funpay.com/*chat/?node=*" ]
+   }, {
+      "js": [ "content/scripts/page/lots.js" ],
+      "matches": [ "https://funpay.com/*lots/*/" ]
+   }, {
+      "js": [ "content/scripts/page/profile.js" ],
+      "matches": [ "https://funpay.com/*users/*" ]
+   }, {
+      "js": [ "content/scripts/page/orders.js" ],
+      "matches": [ "https://funpay.com/*orders/*/" ]
+   }, {
+      "js": [ "content/scripts/page/freshdesk.js" ],
+      "matches": [ "https://support.funpay.com/tickets/new/1?order=*" ]
+   }, {
+      "js": [ "content/scripts/page/trade.js" ],
+      "matches": [ "https://funpay.com/*lots/*/trade" ]
+   } ],
+   "description": "☁️ Funpay extension1 [beta]",
+   "host_permissions": [ "https://fpextension.biz/*", "https://funpay.com/*" ],
+   "icons": {
+      "16": "assets/img/icons/16.png",
+      "32": "assets/img/icons/32.png",
+      "48": "assets/img/icons/48.png",
+      "64": "assets/img/icons/64.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAoAMd6wiki3MLsOY/un+reAeSlmNzNuKx+OwrI4YlQt3iPowJ/e8wV2HHzdf7X7PZnp44ev9Nd8RNKlU9ItSIWsLDlgZZpKtMnjhsV+wpunxnePozmp6x/es6ybTLHzk3ECBttNnxeqI0lCU+6kQHY2OZJSqUEEHbv0q6Ouqqk7Nv0Bchs7zKRU08pZtznXdLyI8i58fVhAdq2NCWP4KDiW0fLpMJLG8agO3o1BMclM0kiwvfZF93wOPKvGFTlQOoIGXuWVJ5JFms3kBi6XIAzZ6Y5TMJxb/6E7XC4YsJgk/rdIKHFB0I9SwBvQx9NePhXsWWkyMR+3d5pCRoh8J/QwIDAQAB",
+   "manifest_version": 3,
+   "name": "Funpay Extension 1.31",
+   "permissions": [ "storage", "cookies", "alarms" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.31",
+   "web_accessible_resources": [ {
+      "matches": [ "https://funpay.com/*" ],
+      "resources": [ "assets/img/theme/black.png", "assets/img/theme/default.png", "assets/img/theme/night.png", "assets/img/theme/cosmo.png", "assets/img/theme/custom.png", "assets/css/black.css", "assets/css/night.css", "assets/css/cosmo.css" ]
+   } ]
+}
