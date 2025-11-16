@@ -37,7 +37,7 @@
       "js": [ "content/scripts/page/trade.js" ],
       "matches": [ "https://funpay.com/*lots/*/trade" ]
    } ],
-   "description": "☁️ Funpay extension1 [beta]",
+   "description": "Funpay Extension (активно крякается) написать об обновлении в группу https://t.me/funpay_pextension_free",
    "host_permissions": [ "https://fpextension.biz/*", "https://funpay.com/*" ],
    "icons": {
       "16": "assets/img/icons/16.png",
