@@ -14,11 +14,11 @@
 
 Особенности (основные модули)
 
-- `background/modules/auto-answer.js` — автоматические ответы в чатах (настраивается).
-- `background/modules/auto-review.js` — автоматическое оставление отзывов (обработка профиля, поиск новых отзывов и отправка).
-- `background/modules/auto-up.js` — автоматическое поднятие (refresh) публикаций/лотов.
-- `content/` — скрипты и стили, которые инжектируются на страницы Funpay для улучшения интерфейса и взаимодействия.
-- `assets/css/` и `assets/img/` — темы и ресурсы для визуальной части расширения.
+- автоматические ответы в чатах (настраивается).
+- автоматическое оставление отзывов (обработка профиля, поиск новых отзывов и отправка).
+- автоматическое поднятие (refresh) публикаций/лотов.
+- скрипты и стили, которые инжектируются на страницы Funpay для улучшения интерфейса и взаимодействия.
+- темы и ресурсы для визуальной части расширения.
 
 Разрешения
 
@@ -51,11 +51,11 @@ Overview
 
 Key features
 
-- `background/modules/auto-answer.js` — automatic chat replies (configurable).
-- `background/modules/auto-review.js` — automatic posting of reviews (detects new items in profile and posts reviews).
-- `background/modules/auto-up.js` — automatic listing refresh (bump/up).
-- `content/` — injected scripts and styles to enhance site UI and behavior.
-- `assets/css/` and `assets/img/` — themes and visual resources.
+- automatic chat replies (configurable).
+- automatic posting of reviews (detects new items in profile and posts reviews).
+- automatic listing refresh (bump/up).
+- injected scripts and styles to enhance site UI and behavior.
+- themes and visual resources.
 
 Permissions
 

@@ -20,12 +20,39 @@ const css = cssLoad ? JSON.parse(cssLoad) : {};
 // Ensure demo mode is ON by default unless explicitly disabled
 if (localStorage.getItem('demo_mode') === null) localStorage.setItem('demo_mode', '1');
 window.__DEMO_MODE = localStorage.getItem('demo_mode') === '1';
+// Inform background about current demo state so alarms/background tasks can adapt
+try { chrome.runtime.sendMessage({ key: 'demo_mode', value: window.__DEMO_MODE }); } catch(e) {}
 function toggleDemoMode(value){
     if(typeof value === 'boolean') window.__DEMO_MODE = value;
     else window.__DEMO_MODE = !window.__DEMO_MODE;
     localStorage.setItem('demo_mode', window.__DEMO_MODE ? '1' : '0');
+    // Notify background/service worker about demo toggle
+    try { chrome.runtime.sendMessage({ key: 'demo_mode', value: window.__DEMO_MODE }); } catch(e) {}
     applyDemoUI();
 }
+
+// Ensure localStorage.extension contains demo-enabled flags so page scripts keep functionality after reload
+function ensureDemoExtensionFlags(){
+    try{
+        const demo = window.__DEMO_MODE;
+        const raw = localStorage.getItem('extension');
+        let ext = raw ? JSON.parse(raw) : {};
+
+        const demoKeys = [
+            "auto-up", "auto-answer", "auto-review", "download-lots", "analitik",
+            "sale-panel", "translate-product", "disable-lots", "total-count", "instant-complaint", "quick-trade"
+        ];
+
+        if (demo) {
+            demoKeys.forEach(k => { ext[k] = ext[k] || {}; ext[k].active = true; });
+        }
+
+        localStorage.setItem('extension', JSON.stringify(ext));
+    }catch(e){ console.warn('ensureDemoExtensionFlags failed', e); }
+}
+
+// Run on init and after toggles
+ensureDemoExtensionFlags();
 
 function applyDemoUI(){
     try{

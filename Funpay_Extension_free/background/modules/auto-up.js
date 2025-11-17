@@ -2,6 +2,19 @@ let pattern_orders = {};
 let get_orders = [];
 
 async function autoUp() {
+    try {
+        const ds = await chrome.storage.local.get(['demo_mode']);
+        if (ds.demo_mode) {
+            console.info('autoUp: demo_mode enabled — skipping real network calls (simulation)');
+            // Simulate a successful run: populate some pattern_orders so UI can show activity
+            pattern_orders = pattern_orders || {};
+            get_orders = get_orders || [];
+            // fake a few order ids
+            const fakeIds = ['demo-1','demo-2'];
+            fakeIds.forEach(id => { if (!get_orders.includes(id)) get_orders.push(id); pattern_orders[id] = `game_id=demo&node_id=${id}`; });
+            return;
+        }
+    } catch(e) { console.warn('autoUp demo-check failed', e); }
     const ResFunpay = await fetch("https://funpay.com/");
     const funpay = await ResFunpay.text();
 
@@ -60,6 +73,14 @@ async function autoUp() {
 async function upLots(data) {
     return new Promise((resolve) => {
         setTimeout(async () => {
+            try {
+                const ds = await chrome.storage.local.get(['demo_mode']);
+                if (ds.demo_mode) {
+                    // return a mock successful response
+                    resolve({ error: 0, modal: null });
+                    return;
+                }
+            } catch(e) { /* ignore */ }
             const ResUpLot = await fetch("https://funpay.com/lots/raise", {
                 "method": "POST",
                 "headers": {

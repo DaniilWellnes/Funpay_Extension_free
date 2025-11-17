@@ -1,4 +1,6 @@
-if (userData["translate-product"]?.active) {
+const DEMO = localStorage.getItem('demo_mode') === '1';
+
+if (userData["translate-product"]?.active || DEMO) {
     $(".form-group.lot-field.bg-light-color.modal-custom-bg-block.modal-custom-bg-block-top").append(`<label class="translate-state control-label">Автоматический переводчик включен</label>`);
 
     $(`[name="fields[desc][ru]"], [name="fields[summary][ru]"], [name="fields[payment_msg][ru]"]`).on("change", async function() {
@@ -25,7 +27,7 @@ if (userData["exact-price"]?.active) {
     });
 }
 
-if (userData["sale-panel"]?.active) {
+if (userData["sale-panel"]?.active || DEMO) {
     (async () => {
         const res = await fetch($(".js-back-link").attr("href").split("trade")[0]);
         const lots = await res.text();

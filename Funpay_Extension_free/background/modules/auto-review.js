@@ -1,5 +1,20 @@
 async function autoReview(forceUpdate) {
     try {
+        const ds = await chrome.storage.local.get(['demo_mode']);
+        if (ds.demo_mode) {
+            console.info('autoReview: demo_mode enabled — simulating reviews');
+            if (forceUpdate) {
+                await chrome.storage.local.set({"lastReviewId": {"id": ['demo-review']}});
+                return;
+            }
+
+            // simulate sending a review
+            const stored = await chrome.storage.local.get('userData');
+            const autoReviewText = stored.userData?.["auto-review"]?.value || 'Demo review';
+            await sendReview('demo-order', 'demo-token', '123', autoReviewText);
+            return;
+        }
+
         const ResFunpay = await fetch("https://funpay.com/");
         if (!ResFunpay.ok) {
             console.error('autoReview: failed to fetch funpay root', ResFunpay.status);
@@ -64,6 +79,12 @@ async function autoReview(forceUpdate) {
 async function sendReview(id, token, userId, text) {
     return new Promise(async resolve => {
         try {
+                const ds = await chrome.storage.local.get(['demo_mode']);
+                if (ds.demo_mode) {
+                    console.info('sendReview: demo_mode — simulated review for', id, 'text:', text);
+                    setTimeout(() => { resolve(); }, 500);
+                    return;
+                }
             const res = await fetch("https://funpay.com/orders/review", {
                 method: "POST",
                 headers: {

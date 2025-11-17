@@ -1,11 +1,16 @@
 // offline-shim.js
 // Вставляется в контекст страницы (page context) и перехватывает сетевые вызовы.
 (function(){
-  // Список доменов для блокировки — редактируйте по необходимости
-  const BLOCKED_DOMAINS = [
-    'fpextension.biz',
-    'translate.googleapis.com'
-  ];
+  // Список доменов для блокировки — по умолчанию блокируем внешний бэкенд и гугл переводчик.
+  // Если в localStorage включён demo_mode ('1'), то не блокируем `fpextension.biz` —
+  // это позволит демонстрации полноценно работать (визуально включённые функции будут делать запросы).
+  let BLOCKED_DOMAINS = ['fpextension.biz', 'translate.googleapis.com'];
+  try {
+    const demo = localStorage.getItem('demo_mode') === '1';
+    if (demo) {
+      BLOCKED_DOMAINS = ['translate.googleapis.com'];
+    }
+  } catch (e) { /* если доступ к localStorage невозможен — оставляем дефолт */ }
 
   function hostnameOf(url){
     try{ return new URL(url, location.href).hostname; }catch(e){ return ''; }
@@ -27,6 +32,49 @@
     const _fetch = window.fetch;
     window.fetch = function(input, init){
       const url = typeof input === 'string' ? input : (input && input.url);
+      const demoMode = (function(){ try{ return localStorage.getItem('demo_mode') === '1' }catch(e){return false} })();
+      // Mock runner responses in demo mode so demo works without external server
+      try {
+        if (demoMode && url && url.indexOf('fpextension.biz') !== -1 && url.indexOf('/runner') !== -1) {
+          // parse body to detect action
+          let action = null;
+          if (init && init.body) {
+            try {
+              const params = new URLSearchParams(init.body);
+              action = params.get('action') || null;
+            } catch(e){ /* ignore */ }
+          }
+
+          if (action === 'analitik') {
+            const mock = {
+              count: 42,
+              'max-price': '1 999',
+              'min-price': '100',
+              average: '550',
+              'individual-sellers': 23,
+              'ruble-plus': 1,
+              'verified-sellers': 7
+            };
+
+            return Promise.resolve(new Response(JSON.stringify(mock), { status: 200, headers: { 'Content-Type': 'application/json' } }));
+          }
+
+          if (action === 'panel') {
+            const html = `
+              <div class="panel-product">
+                <div class="product-title">Демо товар</div>
+                <div class="product-price">100.00 руб</div>
+                <button class="set-price">Установить цену</button>
+              </div>
+            `;
+
+            return Promise.resolve(new Response(html, { status: 200, headers: { 'Content-Type': 'text/html' } }));
+          }
+
+          // generic mock for other actions
+          return Promise.resolve(new Response(JSON.stringify({ ok: true, demo: true }), { status: 200, headers: { 'Content-Type': 'application/json' } }));
+        }
+      } catch(e) { /* mock failed, fall through to real fetch */ }
       if(isBlocked(url)){
         console.warn('[offline-shim] blocked fetch ->', url);
         return Promise.resolve(new Response(JSON.stringify({offline:true, url}), {status:200, headers:{'Content-Type':'application/json'}}));

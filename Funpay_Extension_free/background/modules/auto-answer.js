@@ -1,4 +1,21 @@
 async function autoAnswer(forceUpdate) {
+    try {
+        const ds = await chrome.storage.local.get(['demo_mode']);
+        if (ds.demo_mode) {
+            console.info('autoAnswer: demo_mode enabled — simulating chat handling');
+            if (forceUpdate) {
+                await chrome.storage.local.set({"lastChatId": {"id": "demo-last"}});
+                return;
+            }
+
+            // simulate a single incoming message and a reply
+            const fakeMeta = { token: 'demo-token', id: 'demo-node', username: 'Игрок', myusername: 'DemoUser' };
+            const replyText = (userData && userData["auto-answer"]?.value) ? userData["auto-answer"].value.replaceAll('{username}', fakeMeta.username).replaceAll('{myusername}', fakeMeta.myusername) : 'Demo reply';
+            await sendReply(fakeMeta.token, fakeMeta.id, replyText);
+            return;
+        }
+    } catch(e) { console.warn('autoAnswer demo-check failed', e); }
+
     const chatListResponse = await fetch("https://funpay.com/chat/");
  
     if (!chatListResponse.ok) return
@@ -28,6 +45,15 @@ async function autoAnswer(forceUpdate) {
 
 function handleChat(dialogId) {
     return new Promise(async (resolve) => {
+        try {
+            const ds = await chrome.storage.local.get(['demo_mode']);
+            if (ds.demo_mode) {
+                console.info('handleChat: demo_mode — simulated handling for', dialogId);
+                // simulate a small delay
+                setTimeout(() => { resolve(); }, 1000);
+                return;
+            }
+        } catch(e) { /* ignore */ }
         let lastAuthor = "Поддержка";
 
         const dialogResponse = await fetch(`https://funpay.com/chat/?node=${dialogId}`);
@@ -103,6 +129,15 @@ function handleChat(dialogId) {
 }
 
 async function sendReply(csrfToken, nodeId, messageText) {
+    try {
+        const ds = await chrome.storage.local.get(['demo_mode']);
+        if (ds.demo_mode) {
+            console.info('sendReply: demo_mode — simulated send to', nodeId, 'message:', messageText);
+            await new Promise((r) => setTimeout(r, 500));
+            return 'demo-ok';
+        }
+    } catch(e) { /* ignore */ }
+
     const response = await fetch("https://funpay.com/runner/", {
         method: "POST",
         body: new URLSearchParams({

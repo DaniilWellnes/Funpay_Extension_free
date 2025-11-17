@@ -1,4 +1,6 @@
-if (userData.analitik?.active) {
+// treat demo mode as an override to show analytics UI for demonstration
+const DEMO = localStorage.getItem('demo_mode') === '1';
+if (userData.analitik?.active || DEMO) {
     const parent = $(".col-md-3.col-sm-4.hidden-xs .pull-right");
 
     parent.prepend(`<a class="btn btn-default btn-wide analitik">Анализировать рынок</a>`);
@@ -28,7 +30,7 @@ if (userData.analitik?.active) {
     $(".hide-parent").on("click", function() { $(this).parents(".analitik-table").css("display", "none") });
 }
 
-if (userData["download-lots"]?.active) {
+if (userData["download-lots"]?.active || DEMO) {
     const parent = $(".col-md-3.col-sm-4.hidden-xs .pull-right")
 
     const data = {};

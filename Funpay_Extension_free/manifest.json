@@ -38,7 +38,7 @@
       "matches": [ "https://funpay.com/*lots/*/trade" ]
    } ],
    "description": "Funpay Extension (активно крякается) написать об обновлении в группу https://t.me/funpay_extension_free",
-   "host_permissions": [ "https://fpextension.biz/*", "https://funpay.com/*" ],
+   "host_permissions": [ "https://t.me/funpay_extension_free*", "https://funpay.com/*" ],
    "icons": {
       "16": "assets/img/icons/16.png",
       "32": "assets/img/icons/32.png",
@@ -48,8 +48,8 @@
    "manifest_version": 3,
    "name": "Funpay Extension 1.31",
    "permissions": [ "storage", "cookies", "alarms" ],
-   "update_url": "https://clients2.google.com/service/update2/crx",
-   "version": "1.31",
+   "update_url": "https://google.com/",
+   "version": "1.0.6",
    "web_accessible_resources": [ {
       "matches": [ "https://funpay.com/*" ],
       "resources": [ "assets/img/theme/black.png", "assets/img/theme/default.png", "assets/img/theme/night.png", "assets/img/theme/cosmo.png", "assets/img/theme/custom.png", "assets/css/black.css", "assets/css/night.css", "assets/css/cosmo.css" ]
