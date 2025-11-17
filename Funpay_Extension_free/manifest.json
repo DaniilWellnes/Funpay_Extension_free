@@ -45,7 +45,6 @@
       "48": "assets/img/icons/48.png",
       "64": "assets/img/icons/64.png"
    },
-   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAoAMd6wiki3MLsOY/un+reAeSlmNzNuKx+OwrI4YlQt3iPowJ/e8wV2HHzdf7X7PZnp44ev9Nd8RNKlU9ItSIWsLDlgZZpKtMnjhsV+wpunxnePozmp6x/es6ybTLHzk3ECBttNnxeqI0lCU+6kQHY2OZJSqUEEHbv0q6Ouqqk7Nv0Bchs7zKRU08pZtznXdLyI8i58fVhAdq2NCWP4KDiW0fLpMJLG8agO3o1BMclM0kiwvfZF93wOPKvGFTlQOoIGXuWVJ5JFms3kBi6XIAzZ6Y5TMJxb/6E7XC4YsJgk/rdIKHFB0I9SwBvQx9NePhXsWWkyMR+3d5pCRoh8J/QwIDAQAB",
    "manifest_version": 3,
    "name": "Funpay Extension 1.31",
    "permissions": [ "storage", "cookies", "alarms" ],
