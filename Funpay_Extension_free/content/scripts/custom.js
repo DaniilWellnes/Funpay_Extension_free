@@ -1,4 +1,4 @@
-if (userData["custom"] && window.location.href != "https://funpay.com/extension") {
+if (userData["custom"] && window.location.href != "https://funpay.com/extension1") {
     let selectedElement;
 
     $(document).on("mouseenter", "*", function (event) {
