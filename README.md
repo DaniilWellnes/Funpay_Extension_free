@@ -70,7 +70,3 @@ Next steps / Suggestions
 
 - If you want more robust HTML parsing, consider switching from regex to a DOMParser-based approach in background scripts.
 - If you want, I can update modules to include more detailed debug logging or add a basic UI for toggling features.
-
----
-
-Если нужно, могу подготовить краткий `CONTRIBUTING.md` и/или шаблон `ISSUE_TEMPLATE` на русском и английском — скажите, нужно ли это.
